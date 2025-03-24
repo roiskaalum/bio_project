@@ -1,0 +1,364 @@
+{
+    "film" : [
+        {
+            "title" : "min_søsters_børn_vælterbyen",
+            "genre" : ["lorem", "ipsum"],
+            "description" : {
+                "long" : "lorem ipsum",
+                "short" : "lorem ipsum"
+            },
+            "images" : {
+                "base" : "images/min_søsters_børn_vælterbyen.jpg",
+                "small" : "images/min_søsters_børn_vælterbyen_small.jpg",
+                "big" : "images/min_søsters_børn_vælterbyen_big.jpg"
+            }
+        },
+        
+        {
+            "title" : "min_søsters_børn_brylluprejsen",
+            "genre" : ["lorem", "ipsum"],
+            "description" : {
+                "long" : "lorem ipsum",
+                "short" : "lorem ipsum"
+            },
+            "images" : {
+                "base" : "images/min_søsters_børn_brylluprejsen.jpg",
+                "small" : "images/min_søsters_børn_brylluprejsen_small.jpg",
+                "big" : "images/min_søsters_børn_brylluprejsen_big.jpg"
+            }
+        },
+        
+        {
+            "title" : "min_søsters_børn",
+            "genre" : ["lorem", "ipsum"],
+            "description" : {
+                "long" : "lorem ipsum",
+                "short" : "lorem ipsum"
+            },
+            "images" : {
+                "base" : "images/min_søsters_børn.jpg",
+                "small" : "images/min_søsters_børn_small.jpg",
+                "big" : "images/min_søsters_børn_big.jpg"
+            }
+        },
+        
+        {
+            "title" : "mig_og_min_lillebror_og_storsmuglerne",
+            "genre" : ["lorem", "ipsum"],
+            "description" : {
+                "long" : "lorem ipsum",
+                "short" : "lorem ipsum"
+            },
+            "images" : {
+                "base" : "images/mig_og_min_lillebror_og_storsmuglerne.jpg",
+                "small" : "images/mig_og_min_lillebror_og_storsmuglerne_small.jpg",
+                "big" : "images/mig_og_min_lillebror_og_storsmuglerne_big.jpg"
+            }
+        },
+        
+        {
+            "title" : "mfian_det_osse_mig",
+            "genre" : ["lorem", "ipsum"],
+            "description" : {
+                "long" : "lorem ipsum",
+                "short" : "lorem ipsum"
+            },
+            "images" : {
+                "base" : "images/mfian_det_osse_mig.jpg",
+                "small" : "images/mfian_det_osse_mig_small.jpg",
+                "big" : "images/mfian_det_osse_mig_big.jpg"
+            }
+        },
+        
+        {
+            "title" : "hvor_er_liget_møller",
+            "genre" : ["lorem", "ipsum"],
+            "description" : {
+                "long" : "lorem ipsum",
+                "short" : "lorem ipsum"
+            },
+            "images" : {
+                "base" : "images/hvor_er_liget_møller.jpg",
+                "small" : "images/hvor_er_liget_møller_small.jpg",
+                "big" : "images/hvor_er_liget_møller_big.jpg"
+            }
+        },
+        
+        {
+            "title" : "far_til_fire_på_landet",
+            "genre" : ["lorem", "ipsum"],
+            "description" : {
+                "long" : "lorem ipsum",
+                "short" : "lorem ipsum"
+            },
+            "images" : {
+                "base" : "images/far_til_fire_på_landet.jpg",
+                "small" : "images/far_til_fire_på_landet_small.jpg",
+                "big" : "images/far_til_fire_på_landet_big.jpg"
+            }
+        },
+        
+        {
+            "title" : "far_til_fire_og_onkel_sofus",
+            "genre" : ["lorem", "ipsum"],
+            "description" : {
+                "long" : "lorem ipsum",
+                "short" : "lorem ipsum"
+            },
+            "images" : {
+                "base" : "images/far_til_fire_og_onkel_sofus.jpg",
+                "small" : "images/far_til_fire_og_onkel_sofus_small.jpg",
+                "big" : "images/far_til_fire_og_onkel_sofus_big.jpg"
+            }
+        },
+        
+        {
+            "title" : "far_til_fire_med_fuld_musik",
+            "genre" : ["lorem", "ipsum"],
+            "description" : {
+                "long" : "lorem ipsum",
+                "short" : "lorem ipsum"
+            },
+            "images" : {
+                "base" : "images/far_til_fire_med_fuld_musik.jpg",
+                "small" : "images/far_til_fire_med_fuld_musik_small.jpg",
+                "big" : "images/far_til_fire_med_fuld_musik_big.jpg"
+            }
+        },
+        
+        {
+            "title" : "far_til_fire_i_sneen",
+            "genre" : ["lorem", "ipsum"],
+            "description" : {
+                "long" : "lorem ipsum",
+                "short" : "lorem ipsum"
+            },
+            "images" : {
+                "base" : "images/far_til_fire_i_sneen.jpg",
+                "small" : "images/far_til_fire_i_sneen_small.jpg",
+                "big" : "images/far_til_fire_i_sneen_big.jpg"
+            }
+        },
+        
+        {
+            "title" : "far_til_fire_i_byen",
+            "genre" : ["lorem", "ipsum"],
+            "description" : {
+                "long" : "lorem ipsum",
+                "short" : "lorem ipsum"
+            },
+            "images" : {
+                "base" : "images/far_til_fire_i_byen.jpg",
+                "small" : "images/far_til_fire_i_byen_small.jpg",
+                "big" : "images/far_til_fire_i_byen_big.jpg"
+            }
+        },
+        
+        {
+            "title" : "far_til_fire",
+            "genre" : ["lorem", "ipsum"],
+            "description" : {
+                "long" : "lorem ipsum",
+                "short" : "lorem ipsum"
+            },
+            "images" : {
+                "base" : "images/far_til_fire.jpg",
+                "small" : "images/far_til_fire_small.jpg",
+                "big" : "images/far_til_fire_big.jpg"
+            }
+        },
+        
+        {
+            "title" : "een_pige_og_39_sømænd",
+            "genre" : ["lorem", "ipsum"],
+            "description" : {
+                "long" : "lorem ipsum",
+                "short" : "lorem ipsum"
+            },
+            "images" : {
+                "base" : "images/een_pige_og_39_sømænd.jpg",
+                "small" : "images/een_pige_og_39_sømænd_small.jpg",
+                "big" : "images/een_pige_og_39_sømænd_big.jpg"
+            }
+        },
+        
+        {
+            "title" : "Bussen",
+            "genre" : ["lorem", "ipsum"],
+            "description" : {
+                "long" : "lorem ipsum",
+                "short" : "lorem ipsum"
+            },
+            "images" : {
+                "base" : "images/Bussen.jpg",
+                "small" : "images/Bussen_small.jpg",
+                "big" : "images/Bussen_big.jpg"
+            }
+        },
+        
+        {
+            "title" : "ved_kongelunden",
+            "genre" : ["lorem", "ipsum"],
+            "description" : {
+                "long" : "lorem ipsum",
+                "short" : "lorem ipsum"
+            },
+            "images" : {
+                "base" : "images/ved_kongelunden.jpg",
+                "small" : "images/ved_kongelunden_small.jpg",
+                "big" : "images/ved_kongelunden_big.jpg"
+            }
+        },
+        
+        {
+            "title" : "tre_piger_i_paris",
+            "genre" : ["lorem", "ipsum"],
+            "description" : {
+                "long" : "lorem ipsum",
+                "short" : "lorem ipsum"
+            },
+            "images" : {
+                "base" : "images/tre_piger_i_paris.jpg",
+                "small" : "images/tre_piger_i_paris_small.jpg",
+                "big" : "images/tre_piger_i_paris_big.jpg"
+            }
+        },
+        
+        {
+            "title" : "sjov_i_gaden",
+            "genre" : ["lorem", "ipsum"],
+            "description" : {
+                "long" : "lorem ipsum",
+                "short" : "lorem ipsum"
+            },
+            "images" : {
+                "base" : "images/sjov_i_gaden.jpg",
+                "small" : "images/sjov_i_gaden_small.jpg",
+                "big" : "images/sjov_i_gaden_big.jpg"
+            }
+        },
+        
+        {
+            "title" : "reptilicus",
+            "genre" : ["lorem", "ipsum"],
+            "description" : {
+                "long" : "lorem ipsum",
+                "short" : "lorem ipsum"
+            },
+            "images" : {
+                "base" : "images/reptilicus.jpg",
+                "small" : "images/reptilicus_small.jpg",
+                "big" : "images/reptilicus_big.jpg"
+            }
+        },
+        
+        {
+            "title" : "pigen_og_greven",
+            "genre" : ["lorem", "ipsum"],
+            "description" : {
+                "long" : "lorem ipsum",
+                "short" : "lorem ipsum"
+            },
+            "images" : {
+                "base" : "images/pigen_og_greven.jpg",
+                "small" : "images/pigen_og_greven_small.jpg",
+                "big" : "images/pigen_og_greven_big.jpg"
+            }
+        },
+        
+        {
+            "title" : "olsenbanden_på_sporet",
+            "genre" : ["lorem", "ipsum"],
+            "description" : {
+                "long" : "lorem ipsum",
+                "short" : "lorem ipsum"
+            },
+            "images" : {
+                "base" : "images/olsenbanden_på_sporet.jpg",
+                "small" : "images/olsenbanden_på_sporet_small.jpg",
+                "big" : "images/olsenbanden_på_sporet_big.jpg"
+            }
+        },
+        
+        {
+            "title" : "olsenbanden_går_i_krig",
+            "genre" : ["lorem", "ipsum"],
+            "description" : {
+                "long" : "lorem ipsum",
+                "short" : "lorem ipsum"
+            },
+            "images" : {
+                "base" : "images/olsenbanden_går_i_krig.jpg",
+                "small" : "images/olsenbanden_går_i_krig_small.jpg",
+                "big" : "images/olsenbanden_går_i_krig_big.jpg"
+            }
+        },
+        {
+            "title" : "olsenbanden_går_amok",
+            "genre" : ["lorem", "ipsum"],
+            "description" : {
+                "long" : "lorem ipsum",
+                "short" : "lorem ipsum"
+            },
+            "images" : {
+                "base" : "images/olsenbanden_går_amok.jpg",
+                "small" : "images/olsenbanden_går_amok_small.jpg",
+                "big" : "images/olsenbanden_går_amok_big.jpg"
+            }
+        },
+        {
+            "title" : "olsenbanden_der_ud_af",
+            "genre" : ["lorem", "ipsum"],
+            "description" : {
+                "long" : "lorem ipsum",
+                "short" : "lorem ipsum"
+            },
+            "images" : {
+                "base" : "images/olsenbanden_der_ud_af.jpg",
+                "small" : "images/olsenbanden_der_ud_af_small.jpg",
+                "big" : "images/olsenbanden_der_ud_af_big.jpg"
+            }
+        },
+        {
+            "title" : "olsenbanden_det_store_kup",
+            "genre" : ["lorem", "ipsum"],
+            "description" : {
+                "long" : "lorem ipsum",
+                "short" : "lorem ipsum"
+            },
+            "images" : {
+                "base" : "images/olsenbanden_det_store_kup.jpg",
+                "small" : "images/olsenbanden_det_store_kup_small.jpg",
+                "big" : "images/olsenbanden_det_store_kup_big.jpg"
+            }
+        },
+        
+        
+        {
+            "title" : "Olsen-banden",
+            "genre" : ["lorem", "ipsum"],
+            "description" : { 
+                "long" : "lorem ipsum",
+                "short" : "lorem ipsum"
+            },
+            "images" : {
+                "base" : "images/olsenbanden.jpg",
+                "small" : "images/olsen_banden_small.jpg",
+                "big" : "images/olsen_banden_big.jpg"
+            }
+        },
+        {
+            "title" : "Min søsters børn",
+            "genre" : ["lorem", "ipsum"],
+            "description" : {
+                "long" : "lorem ipsum",
+                "short" : "lorem ipsum"
+            },
+            "images" : {
+                "base" : "images/template.jpg",
+                "small" : "images/min_søsters_børn_small.jpg",
+                "big" : "images/min_søsters_børn_big.jpg"
+            }
+        }
+    ]
+}
