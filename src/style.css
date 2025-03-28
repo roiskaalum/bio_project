@@ -1,16 +1,20 @@
 :root {
     --clr-primary-300: #cf8f41;
     --clr-primary-400: #af7012;
-    --clr-primary-500: #bdbdbd;
+    --clr-primary-500: #ffa742;
 
     --clr-neutral-100: #fff;
     --clr-neutral-200: #f8f9fa;
     --clr-neutral-800: #343a40;
-    --clr-neutral-900: #212529;
+    --clr-neutral-900: #181b1e;
 
-    --clr-accent-300: #484458;
-    --clr-accent-400: #2d2836;
+    --clr-accent-200: #938ab9;
+    --clr-accent-300: #9588c9;
+    --clr-accent-400: #413852;
+    --clr-accent-500: #25202f;
 }
+
+/* #region Basic Resets */
 
 *{
     padding:0;
@@ -23,28 +27,37 @@ a {
     color: var(--clr-neutral-900);
 }
 
+/* #endregion Basic Resets */
+
+
+/* #region Utility Classes */
+
+.hidden {
+    display: none !important;;
+}
+
+/* #endregion Utility Classes */
+
+
+/* #region Global Styles */
+
 .nav-container{
-    position:relative;
     display:flex;
-    flex:1;
-    justify-content: center;
-    align-items: center;
-    width:100%;
     font-size: 1.4em;
     background-color: var(--clr-primary-300);
 }
 .nav-item {
     display:flex;
-    position:relative;
     flex:1;
     height:4em;
-    flex-grow: 1;
     justify-content: center;
     align-items: center;
-    padding:0;
 }
 a.nav-item:hover {
     background-color: var(--clr-primary-400);
+}
+a.nav-item.active {
+    background-color: var(--clr-primary-500);
 }
 
 section {
@@ -52,11 +65,87 @@ section {
     grid-template-columns: 1fr;
 }
 
+#movie-list>h1 {
+    font-size: 5em;
+    color: orangered;
+}
+
 h2 {
     justify-self: center;
     font-size: 1.5em;
     color: var(--clr-neutral-900);
     margin-block: 3em;
+}
+
+#movie-list {
+    display:grid;
+    grid-template-columns: repeat(auto-fit, 18em);
+    margin:1em;
+    align-content: start;
+    justify-content: space-evenly;
+    gap: 1em;
+}
+
+.movie-div {
+    text-align: center;
+    align-content: start;
+    background-color: var(--clr-accent-300);
+    border-radius: 10px;
+    min-height: 25em;
+    overflow-wrap:break-word;
+    transition: all 0.3s ease;
+}
+/* .movie-link {
+    padding:0.3em;
+    padding-block: 0.1em;
+} */
+.movie-link>h4 {
+    min-height: 3.5em;
+    margin:0.3em;
+    align-content: center;
+}
+
+.img-div {
+    width: 80%;
+    margin:auto;
+    overflow: hidden;
+}
+
+.movie-div img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 10px;
+    justify-content: start;
+}
+
+.genre-list {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.08em;
+    margin-bottom: 1em;
+}
+.genre-btn{
+    background-color: var(--clr-accent-300);
+    border-radius: 7px;
+    border: var(--clr-neutral-900) solid 1px;
+    padding: 0.2em;
+}
+
+.genre-btn:hover{
+    background-color: var(--clr-neutral-100);
+}
+
+.filter-btn {
+    margin:10px;
+    padding: 5px 10px;
+}
+
+.filter-options {
+    display:none;
+    margin:10px;
 }
 
 p {
@@ -72,33 +161,43 @@ footer {
     height: 2em;
     margin: 1em;
 }
-section>div {
-    height: 20px;
-    width: 20px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--clr-primary-300);
+
+/* #endregion Global Styles */
+
+
+/* #region Media Queries For Responsive Design */
+
+@media(max-width: 426px){
+    #movie-list{
+        grid-template-columns: 1fr;
+        gap: 4em;
+        width:90%;
+        justify-self: center;
+    }
+    .movie-link>h4{
+        font-size: 2.5em;
+    }
 }
 
-section>div:nth-child(3) {
-    background-color: red;
+/* #endregion Media Queries For Responsive Design */
+
+
+/* #region Dark Styles */
+
+.dark {
+    --clr-primary-300: #cf8f41;
+    --clr-primary-400: #af7012;
+    --clr-primary-500: #ffa742;
+
+    --clr-neutral-100: #fff;
+    --clr-neutral-200: #f8f9fa;
+    --clr-neutral-800: #343a40;
+    --clr-neutral-900: #181b1e;
+
+    --clr-accent-200: #938ab9;
+    --clr-accent-300: #9588c9;
+    --clr-accent-400: #413852;
+    --clr-accent-500: #25202f;
 }
-section>div:nth-child(4) {
-    background-color: red;
-}
-section>div:nth-child(5) {
-    background-color: red;
-}
-section>div:nth-child(6) {
-    background-color: red;
-}
-section>div:nth-child(7) {
-    background-color: red;
-}
-section>div:nth-child(8) {
-    background-color: red;
-}
-section>div:nth-child(3) {
-    background-color: red;
-}
+
+/* #endregion Dark Styles */

@@ -2,9 +2,10 @@
 <html>
     <head>
         <title>Klassiske Film</title>
-        <link rel="icon" href="favicon.ico" type="image/x-icon">
         <link rel="stylesheet" type="text/css" href="src/style.css">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
         <script src="src/main.js" defer></script>
+        <script src="src/moviefilter.js" defer></script>
     </head>
     <body>
         <nav>
@@ -15,9 +16,17 @@
                 <a class="nav-item" href="om_os.html">Om Os</a>
             </div>
         </nav>
-        <section>
-            <h2>Velkommen til Klassiske Film!</h2>
-            <p>Her kan du finde og bestille biletter til film der bliver afspillet her i vores saler.</p>
+        <section class="search-section">
+            <div class="search-container">
+                <input type="text" id="searchBar" placeholder="Søg efter film..." aria-label="Søg efter film">
+                
+                <div class="filter-section">
+                    <h3>Filtrer efter genre</h3>
+                    <div id="genreFilters" class="genre-filters">
+                        <!-- Genre filters will be added here dynamically -->
+                    </div>
+                </div>
+            </div>
         </section>
         <section>
             <div id="movie-list"></div>

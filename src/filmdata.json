@@ -2,7 +2,7 @@
     "film" : [
         {
             "title" : "min_søsters_børn_vælterbyen",
-            "genre" : ["lorem", "ipsum"],
+            "genre" : ["lorem", "ipsum", "ipsum", "ipsum", "ipsum", "ipsum", "ipsum", "ipsum"],
             "description" : {
                 "long" : "lorem ipsum",
                 "short" : "lorem ipsum"
@@ -345,19 +345,6 @@
                 "base" : "images/olsenbanden.jpg",
                 "small" : "images/olsen_banden_small.jpg",
                 "big" : "images/olsen_banden_big.jpg"
-            }
-        },
-        {
-            "title" : "Min søsters børn",
-            "genre" : ["lorem", "ipsum"],
-            "description" : {
-                "long" : "lorem ipsum",
-                "short" : "lorem ipsum"
-            },
-            "images" : {
-                "base" : "images/template.jpg",
-                "small" : "images/min_søsters_børn_small.jpg",
-                "big" : "images/min_søsters_børn_big.jpg"
             }
         }
     ]
