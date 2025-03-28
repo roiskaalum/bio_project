@@ -1,7 +1,7 @@
 {
     "film" : [
         {
-            "title" : "min_søsters_børn_vælterbyen",
+            "title" : "Min_søsters_børn_vælterbyen",
             "genre" : ["lorem", "ipsum", "ipsum", "ipsum", "ipsum", "ipsum", "ipsum", "ipsum"],
             "description" : {
                 "long" : "lorem ipsum",
@@ -15,8 +15,8 @@
         },
         
         {
-            "title" : "min_søsters_børn_brylluprejsen",
-            "genre" : ["lorem", "ipsum"],
+            "title" : "Min_søsters_børn_brylluprejsen",
+            "genre" : ["Komedie", "Familie"],
             "description" : {
                 "long" : "lorem ipsum",
                 "short" : "lorem ipsum"
@@ -29,8 +29,8 @@
         },
         
         {
-            "title" : "min_søsters_børn",
-            "genre" : ["lorem", "ipsum"],
+            "title" : "Min_søsters_børn",
+            "genre" : ["Komedie", "Familie"],
             "description" : {
                 "long" : "lorem ipsum",
                 "short" : "lorem ipsum"
@@ -43,8 +43,8 @@
         },
         
         {
-            "title" : "mig_og_min_lillebror_og_storsmuglerne",
-            "genre" : ["lorem", "ipsum"],
+            "title" : "Mig_og_min_lillebror_og_storsmuglerne",
+            "genre" : ["Komedie", "Familie"],
             "description" : {
                 "long" : "lorem ipsum",
                 "short" : "lorem ipsum"
@@ -57,8 +57,8 @@
         },
         
         {
-            "title" : "mfian_det_osse_mig",
-            "genre" : ["lorem", "ipsum"],
+            "title" : "Mafian_det_osse_mig",
+            "genre" : ["Komedie", "Krimi"],
             "description" : {
                 "long" : "lorem ipsum",
                 "short" : "lorem ipsum"
@@ -71,8 +71,8 @@
         },
         
         {
-            "title" : "hvor_er_liget_møller",
-            "genre" : ["lorem", "ipsum"],
+            "title" : "Hvor_er_liget,_Møller?",
+            "genre" : ["Komedie", "Krimi"],
             "description" : {
                 "long" : "lorem ipsum",
                 "short" : "lorem ipsum"
@@ -85,8 +85,8 @@
         },
         
         {
-            "title" : "far_til_fire_på_landet",
-            "genre" : ["lorem", "ipsum"],
+            "title" : "Far_til_fire_på_landet",
+            "genre" : ["Familie", "Komedie"],
             "description" : {
                 "long" : "lorem ipsum",
                 "short" : "lorem ipsum"
@@ -99,8 +99,8 @@
         },
         
         {
-            "title" : "far_til_fire_og_onkel_sofus",
-            "genre" : ["lorem", "ipsum"],
+            "title" : "Far_til_fire_og_onkel_sofus",
+            "genre" : ["Familie", "Komedie"],
             "description" : {
                 "long" : "lorem ipsum",
                 "short" : "lorem ipsum"
@@ -113,8 +113,8 @@
         },
         
         {
-            "title" : "far_til_fire_med_fuld_musik",
-            "genre" : ["lorem", "ipsum"],
+            "title" : "Far_til_fire_med_fuld_musik",
+            "genre" : ["Familie", "Komedie"],
             "description" : {
                 "long" : "lorem ipsum",
                 "short" : "lorem ipsum"
@@ -127,8 +127,8 @@
         },
         
         {
-            "title" : "far_til_fire_i_sneen",
-            "genre" : ["lorem", "ipsum"],
+            "title" : "Far_til_fire_i_sneen",
+            "genre" : ["Familie", "Komedie"],
             "description" : {
                 "long" : "lorem ipsum",
                 "short" : "lorem ipsum"
@@ -141,8 +141,8 @@
         },
         
         {
-            "title" : "far_til_fire_i_byen",
-            "genre" : ["lorem", "ipsum"],
+            "title" : "Far_til_fire_i_byen",
+            "genre" : ["Familie", "Komedie"],
             "description" : {
                 "long" : "lorem ipsum",
                 "short" : "lorem ipsum"
@@ -155,8 +155,8 @@
         },
         
         {
-            "title" : "far_til_fire",
-            "genre" : ["lorem", "ipsum"],
+            "title" : "Far_til_fire",
+            "genre" : ["Familie", "Komedie"],
             "description" : {
                 "long" : "lorem ipsum",
                 "short" : "lorem ipsum"
@@ -169,8 +169,8 @@
         },
         
         {
-            "title" : "een_pige_og_39_sømænd",
-            "genre" : ["lorem", "ipsum"],
+            "title" : "Een_pige_og_39_sømænd",
+            "genre" : ["Komedie", "Romantik"],
             "description" : {
                 "long" : "lorem ipsum",
                 "short" : "lorem ipsum"
@@ -184,7 +184,7 @@
         
         {
             "title" : "Bussen",
-            "genre" : ["lorem", "ipsum"],
+            "genre" : ["Komedie", "Drama"],
             "description" : {
                 "long" : "lorem ipsum",
                 "short" : "lorem ipsum"
@@ -197,8 +197,8 @@
         },
         
         {
-            "title" : "ved_kongelunden",
-            "genre" : ["lorem", "ipsum"],
+            "title" : "Ved_Kongelunden",
+            "genre" : ["Komedie", "Musical", "Romantik"],
             "description" : {
                 "long" : "lorem ipsum",
                 "short" : "lorem ipsum"
@@ -211,7 +211,7 @@
         },
         
         {
-            "title" : "tre_piger_i_paris",
+            "title" : "Tre_piger_i_paris",
             "genre" : ["lorem", "ipsum"],
             "description" : {
                 "long" : "lorem ipsum",
@@ -225,8 +225,8 @@
         },
         
         {
-            "title" : "sjov_i_gaden",
-            "genre" : ["lorem", "ipsum"],
+            "title" : "Sjov_i_gaden",
+            "genre" : ["Komedie"],
             "description" : {
                 "long" : "lorem ipsum",
                 "short" : "lorem ipsum"
@@ -239,8 +239,8 @@
         },
         
         {
-            "title" : "reptilicus",
-            "genre" : ["lorem", "ipsum"],
+            "title" : "Reptilicus",
+            "genre" : ["Gyser", "Action", "Drama", "Sci-fi"],
             "description" : {
                 "long" : "lorem ipsum",
                 "short" : "lorem ipsum"
@@ -253,8 +253,8 @@
         },
         
         {
-            "title" : "pigen_og_greven",
-            "genre" : ["lorem", "ipsum"],
+            "title" : "Pigen_og_greven",
+            "genre" : ["Komedie", "Romantik"],
             "description" : {
                 "long" : "lorem ipsum",
                 "short" : "lorem ipsum"
@@ -267,8 +267,8 @@
         },
         
         {
-            "title" : "olsenbanden_på_sporet",
-            "genre" : ["lorem", "ipsum"],
+            "title" : "Olsen-banden_på_sporet",
+            "genre" : ["Komedie", "Krimi"],
             "description" : {
                 "long" : "lorem ipsum",
                 "short" : "lorem ipsum"
@@ -281,8 +281,8 @@
         },
         
         {
-            "title" : "olsenbanden_går_i_krig",
-            "genre" : ["lorem", "ipsum"],
+            "title" : "Olsen-banden_går_i_krig",
+            "genre" : ["Komedie", "Krimi"],
             "description" : {
                 "long" : "lorem ipsum",
                 "short" : "lorem ipsum"
@@ -294,8 +294,8 @@
             }
         },
         {
-            "title" : "olsenbanden_går_amok",
-            "genre" : ["lorem", "ipsum"],
+            "title" : "Olsen-banden_går_amok",
+            "genre" : ["Komedie", "Krimi"],
             "description" : {
                 "long" : "lorem ipsum",
                 "short" : "lorem ipsum"
@@ -307,8 +307,8 @@
             }
         },
         {
-            "title" : "olsenbanden_der_ud_af",
-            "genre" : ["lorem", "ipsum"],
+            "title" : "Olsen-banden_der_ud_af",
+            "genre" : ["Komedie", "Krimi"],
             "description" : {
                 "long" : "lorem ipsum",
                 "short" : "lorem ipsum"
@@ -320,8 +320,8 @@
             }
         },
         {
-            "title" : "olsenbanden_det_store_kup",
-            "genre" : ["lorem", "ipsum"],
+            "title" : "Olsen-banden_det_store_kup",
+            "genre" : ["Komedie", "Krimi"],
             "description" : {
                 "long" : "lorem ipsum",
                 "short" : "lorem ipsum"
@@ -332,11 +332,9 @@
                 "big" : "images/olsenbanden_det_store_kup_big.jpg"
             }
         },
-        
-        
         {
             "title" : "Olsen-banden",
-            "genre" : ["lorem", "ipsum"],
+            "genre" : ["Komedie", "Krimi"],
             "description" : { 
                 "long" : "lorem ipsum",
                 "short" : "lorem ipsum"
