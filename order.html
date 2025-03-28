@@ -1,26 +1,32 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Klassiske Film</title>
-        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <title>Klassiske Film | Filme</title>
         <link rel="stylesheet" type="text/css" href="src/style.css">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <script src="src/shared.js" defer></script>
         <script src="src/main.js" defer></script>
+        <script src="src/seats.js" defer></script>
     </head>
     <body>
         <nav>
             <div class="nav-container" role="list" aria-label="Primary Navigation">
-                <a class="nav-item active" href="index.html">Hjem</a>
-                <a class="nav-item" href="movie.html">Film</a>
+                <a class="nav-item" href="index.html">Hjem</a>
+                <a class="nav-item active" href="film.html">Film</a>
                 <a class="nav-item" href="om_os.html">Om Os</a>
-                <button id="theme-toggle" class="dark-btn"><img class="nav-item" id="theme-icon" src="images/darkmode_black.png"></button>
-                <div class="nav-item burger-menu" role="list" aria-label="Primary Navigation Burger Menu">
-                    <button class="burger-menu-button" id="burger-menu-button"><img src="images/nav-burger-menu.png" id="burgerImage" alt="Image For Hamburger Menu For Mobile Navigation"></button>
-                </div>
             </div>
         </nav>
-        <section>
-            <h2>Velkommen til Klassiske Film!</h2>
-            <p>Her kan du finde og bestille biletter til film der bliver afspillet her i vores saler.</p>
+        <section class="search-section">
+            <div class="search-container">
+                <input type="text" id="searchBar" placeholder="Søg efter film..." aria-label="Søg efter film">
+                
+                <div class="filter-section">
+                    <h3>Filtrer efter genre</h3>
+                    <div id="genreFilters" class="genre-filters">
+                        <!-- Genre filters will be added here dynamically -->
+                    </div>
+                </div>
+            </div>
         </section>
         <section>
             <div id="movie-list"></div>

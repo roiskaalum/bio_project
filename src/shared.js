@@ -1,0 +1,41 @@
+document.addEventListener("DOMContentLoaded", () => {
+    // #region Darkmode and Hamburger Menu
+    console.log("loaded JS");
+    const themeToggle = document.querySelector("#theme-toggle");
+    const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+    const storedTheme = localStorage.getItem("theme");
+    const themeIcon = document.querySelector("#theme-icon");
+    const burgerIcon = document.querySelector("#burgerImage");
+    
+    //Darkmode detection function:
+    if (storedTheme == "dark" || (!storedTheme && prefersDark)) {
+      document.body.classList.add("dark");
+      themeIcon.src = "src/images/darkmode_white.png";
+      burgerIcon.src = "src/images/nav-burger-menu-white.png";
+    }
+    
+    //Darkmode Click Function:
+    themeToggle.addEventListener("click", () => {
+      document.body.classList.toggle("dark");
+      localStorage.setItem("theme", document.body.classList.contains("dark") ? "dark" : "light");
+      if(themeIcon.src.includes("darkmode_white.png"))
+        {
+          themeIcon.src = "src/images/darkmode_black.png";
+          burgerIcon.src = "src/images/nav-burger-menu.png";
+        }
+        else
+        {
+          themeIcon.src = "src/images/darkmode_white.png";
+          burgerIcon.src = "src/images/nav-burger-menu-white.png";
+        }
+    });
+      
+    //Hamburger Click Function:
+    const burgerMenu = document.querySelector("#burger-menu-button");
+    const navContainer = document.querySelector(".nav-container");
+    //TODO: Swap src image for hamburger for an opened version of the same color variant.
+    burgerMenu.addEventListener("click", () => {
+    navContainer.classList.toggle("active");
+    burgerMenu.classList.toggle("active");
+    });
+});
