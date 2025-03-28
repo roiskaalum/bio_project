@@ -103,6 +103,10 @@ async function loadMovies(htmlElement, id_class_html = "") {
     {
         movieListElement = document.getElementsByTagName(htmlElement);
     }
+    else
+    {
+        movieListElement = document.getElementById("movie-list");
+    }
     try
     {
         if(moviesArr == null) {
