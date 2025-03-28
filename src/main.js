@@ -26,6 +26,7 @@ async function fetchMoviesData(url) {
 
 function generateMovieList(targetElement) {
     // Clear existing content
+    
     targetElement.innerHTML = "";
     moviesArr.forEach(item => {
         const movieDiv = createMovieElement(item);
@@ -90,22 +91,26 @@ function openGenrePage(genre) {
 
 // Example usage of the abstraction
 async function loadMovies(htmlElement, id_class_html = "") {
-    
+    console.log(htmlElement);
     let movieListElement;
     if(id_class_html.toUpperCase() == "ID") {
         movieListElement = document.getElementById(htmlElement);
+        console.log("ran 1st if");
     }
     else if(id_class_html.toUpperCase() == "CLASS")
     {
         movieListElement = document.getElementsByClassName(id_class_html)[0];
+        console.log("ran 2nd if");
     }
     else if(id_class_html.toUpperCase() == "HTML")
     {
         movieListElement = document.getElementsByTagName(htmlElement);
+        console.log("ran 3rd if");
     }
     else
     {
         movieListElement = document.getElementById("movie-list");
+        console.log("ran 4th if");
     }
     try
     {
@@ -116,7 +121,6 @@ async function loadMovies(htmlElement, id_class_html = "") {
             {
                 throw new Error(response.error || "Failed to fetch data");
             }
-
             generateMovieList(movieListElement);
             return response;
         }

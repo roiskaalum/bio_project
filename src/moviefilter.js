@@ -21,8 +21,8 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log(title);
         displayByTitle(title, htmlElement);
     } else {
-        console.log("No Title, this can't happen, something went wrong. Display Empty Page.");
-        htmlElement.innerHTML = "<h1>Something went wrong</h1>";
+        console.log("No Title or genre, display every movie.");
+        loadMovies("movie-list", "id");
     }
 });
 
