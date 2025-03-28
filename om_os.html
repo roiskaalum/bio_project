@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Klassiske Film</title>
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" type="text/css" href="src/style.css">
+        <script src="src/main.js" defer></script>
+        <style>
+            input[type=text], select, textarea {
+            width: 100%; /* Full width */
+            padding: 12px; /* Some padding */ 
+            border: 1px solid #ccc; /* Gray border */
+            border-radius: 4px; /* Rounded borders */
+            box-sizing: border-box; /* Make sure that padding and width stays in place */
+            margin-top: 6px; /* Add a top margin */
+            margin-bottom: 16px; /* Bottom margin */
+            resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+            }
+
+            /* Style the submit button with a specific background color etc */
+            input[type=submit] {
+            background-color: #04AA6D;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            }
+
+            /* When moving the mouse over the submit button, add a darker green color */
+            input[type=submit]:hover {
+            background-color: #45a049;
+            }
+
+            /* Add a background color and some padding around the form */
+            .container {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+            margin: 0 10rem;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <div class="nav-container" role="list" aria-label="Primary Navigation">
+                <a class="nav-item active" href="index.html">Hjem</a>
+                <a class="nav-item" href="film.html">Film</a>
+                <a class="nav-item" href="om_os.html">Om Os</a>
+            </div>
+        </nav>
+        <section>
+            <h2>Vi er Klassiske Film</h2>
+            <p>Her kan du finde info om hvem vi er, hvad vi gør, eller finde måder at kontakte os.</p>
+        </section>
+        <section>
+            <div class="container">
+                <form action="mailto:bqi54838@bcooq.com">
+                    <label for="fname">Fornavn</label>
+                    <input type="text" id="fname" name="fornavn" placeholder="Dit fornavn..">
+                
+                    <label for="lname">Efternavn</label>
+                    <input type="text" id="lname" name="efternavn" placeholder="Dit efternavn name..">
+                    
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="Din email...">
+
+
+                    <label for="problem">Problem</label>
+                    <select id="problem" name="problem">
+                      <option value="" disabled selected>Vælg problem</option>
+                      <option value="unwatchable">Jeg kan ikke se filmen</option>
+                      <option value="wrongmovie">Jeg har købt billet til den forkerte film</option>
+                      <option value="wrongtime">Jeg har købt billet til den forkerte tid</option>
+                      <option value="missingitem">Jeg har glemt en personlig ejendom i Biografen</option>
+                      <option value="illegal">Jeg har lyst til at udøve ulovlige handlinger i biografen - må jeg det?</option>
+                      <option value="tattletale">Jeg så nogen begå en ulovlig handling på biografens addresse</option>
+                      <option value="question">Jeg har et andet spørgsmål</option>
+                    </select>
+                
+                    <label for="subject">Emne</label>
+                    <textarea id="subject" name="subject" placeholder="Skriv noget..." style="height:200px"></textarea>
+                
+                    <input type="submit" value="Submit">
+            </div>
+        </section>
+        <footer>
+            <div class="social-list">
+                <a href="https://www.facebook.com"><img src="images/facebook.png" alt="Facebook"></a>
+                <a href="https://www.instagram.com"><img src="images/instagram.png" alt="Instagram"></a>
+                <a href="https://www.twitter.com"><img src="images/twitter.png" alt="Twitter"></a>
+            </div>
+        </footer>
+    </body>
+</html>
