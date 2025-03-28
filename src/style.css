@@ -22,6 +22,10 @@
     font-family: calibri;
 }
 
+body, p, button{
+    background-color: var(--clr-neutral-100);
+    color: var(--clr-neutral-900);
+}
 a {
     text-decoration: none;
     color: var(--clr-neutral-900);
@@ -54,6 +58,15 @@ a {
 
 .burger-menu {
     display:none;
+    
+}
+
+.burger-menu-button {
+    display:none;
+}
+#burgerImage {
+    display:none;
+    
 }
 @media(max-width: 37.5em){
     .burger-menu {
@@ -237,10 +250,10 @@ footer {
     --clr-primary-400: #af7012;
     --clr-primary-500: #ffa742;
 
-    --clr-neutral-100: #fff;
+    --clr-neutral-100: #000000;
     --clr-neutral-200: #f8f9fa;
     --clr-neutral-800: #343a40;
-    --clr-neutral-900: #181b1e;
+    --clr-neutral-900: #ffffff;
 
     --clr-accent-200: #938ab9;
     --clr-accent-300: #9588c9;
