@@ -32,10 +32,13 @@ document.addEventListener("DOMContentLoaded", () => {
       
     //Hamburger Click Function:
     const burgerMenu = document.querySelector("#burger-menu-button");
-    const navContainer = document.querySelector(".nav-container");
+    const navLinks = document.getElementsByClassName("nav-item");
     //TODO: Swap src image for hamburger for an opened version of the same color variant.
     burgerMenu.addEventListener("click", () => {
-    navContainer.classList.toggle("active");
-    burgerMenu.classList.toggle("active");
+      for(let i = 0; i < 3; i++)
+      {
+        // navLinks[i].classList.toggle("hamburger-active");
+        navLinks[i].classList.toggle("mobile-hidden");
+      }
     });
 });
