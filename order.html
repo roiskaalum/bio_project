@@ -1,13 +1,200 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Klassiske Film | Filme</title>
+        <title>Klassiske Film | Bestil</title>
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="src/style.css">
         <link rel="icon" href="favicon.ico" type="image/x-icon">
         <script src="src/shared.js" defer></script>
-        <script src="src/main.js" defer></script>
         <script src="src/seats.js" defer></script>
+        <style>
+            body {
+                font-family: 'Arial', sans-serif;
+                margin: 0;
+                padding: 20px;
+                background-color: #f5f5f5;
+            }
+            
+            .container {
+                max-width: 1200px;
+                margin: 0 auto;
+                background-color: white;
+                padding: 20px;
+                border-radius: 8px;
+                box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            }
+            
+            h1 {
+                text-align: center;
+                color: #333;
+            }
+            
+            .cinema-selection {
+                margin-bottom: 20px;
+                padding: 15px;
+                background-color: #eee;
+                border-radius: 5px;
+            }
+            
+            .cinema-selection select {
+                padding: 8px;
+                width: 100%;
+                font-size: 16px;
+            }
+            
+            .order-controls {
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 20px;
+                padding: 15px;
+                background-color: #eee;
+                border-radius: 5px;
+            }
+            
+            .ticket-control {
+                display: flex;
+                align-items: center;
+            }
+            
+            .ticket-control button {
+                padding: 5px 10px;
+                margin: 0 5px;
+                cursor: pointer;
+            }
+            
+            .screen {
+                text-align: center;
+                margin: 20px 0;
+                padding: 10px;
+                background-color: #333;
+                color: white;
+                font-weight: bold;
+            }
+            
+            .cinema-hall {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-bottom: 30px;
+            }
+            
+            .seat-row {
+                display: flex;
+                margin-bottom: 10px;
+            }
+            
+            .seat {
+                width: 30px;
+                height: 30px;
+                margin: 0 5px;
+                border-radius: 5px;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 10px;
+                font-weight: bold;
+                transition: all 0.2s;
+            }
+            
+            .seat.free {
+                background-color: #4CAF50; /* Green - available */
+            }
+            
+            .seat.selected {
+                background-color: #2196F3; /* Blue - selected by user */
+            }
+            
+            .seat.occupied {
+                background-color: #f44336; /* Red - already booked */
+                cursor: not-allowed;
+            }
+            
+            .seat.free:hover {
+                background-color: #8BC34A; /* Light green - hover effect */
+                transform: scale(1.1);
+            }
+            
+            .row-label {
+                width: 20px;
+                margin-right: 10px;
+                font-weight: bold;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            
+            .extras {
+                margin-top: 30px;
+                padding: 20px;
+                background-color: #f9f9f9;
+                border-radius: 5px;
+            }
+            
+            .extras h2 {
+                margin-top: 0;
+            }
+            
+            .extra-item {
+                display: flex;
+                justify-content: space-between;
+                margin: 10px 0;
+                padding: 10px;
+                background-color: white;
+                border-radius: 5px;
+            }
+            
+            .extra-item select {
+                padding: 5px;
+            }
+            
+            .checkout {
+                margin-top: 30px;
+                text-align: center;
+            }
+            
+            .checkout button {
+                padding: 10px 20px;
+                background-color: #4CAF50;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                font-size: 16px;
+            }
+            
+            .checkout button:hover {
+                background-color: #45a049;
+            }
+            
+            .customer-info {
+                margin-top: 20px;
+                padding: 15px;
+                background-color: #eee;
+                border-radius: 5px;
+            }
+            
+            .customer-info input {
+                padding: 8px;
+                margin: 5px 0;
+                width: 100%;
+                box-sizing: border-box;
+            }
+            
+            .total {
+                font-size: 18px;
+                font-weight: bold;
+                margin: 20px 0;
+                text-align: right;
+            }
+            
+            .hall-info {
+                margin-bottom: 10px;
+                font-style: italic;
+                text-align: center;
+            }
+        </style>
     </head>
     <body>
         <nav>
@@ -21,20 +208,94 @@
                 </div>
             </div>
         </nav>
-        <section class="search-section">
-            <div class="search-container">
-                <input type="text" id="searchBar" placeholder="Søg efter film..." aria-label="Søg efter film">
+        <section>
+            <div class="container">
+                <h1>Cinema Seat Booking</h1>
                 
-                <div class="filter-section">
-                    <h3>Filtrer efter genre</h3>
-                    <div id="genreFilters" class="genre-filters">
-                        <!-- Genre filters will be added here dynamically -->
+                <div class="cinema-selection">
+                    <label for="cinema-hall-select">Select Cinema Hall:</label>
+                    <select id="cinema-hall-select">
+                        <!-- Options will be populated by JavaScript -->
+                    </select>
+                </div>
+                
+                <div class="hall-info" id="hall-info">
+                    <!-- Hall information will be displayed here -->
+                </div>
+                
+                <div class="order-controls">
+                    <div class="ticket-control">
+                        <label for="ticket-count">Tickets:</label>
+                        <button id="decrease-tickets">-</button>
+                        <input type="number" id="ticket-count" value="1" min="1" max="10">
+                        <button id="increase-tickets">+</button>
+                    </div>
+                    <div id="selected-seats-info">Selected: 0/1 seats</div>
+                </div>
+                
+                <div class="screen">SCREEN</div>
+                
+                <div class="cinema-hall" id="cinema-hall">
+                    <!-- Seats will be generated here by JavaScript -->
+                </div>
+                
+                <div class="extras">
+                    <h2>Extras</h2>
+                    <div class="extra-item">
+                        <div>
+                            <h3>Popcorn</h3>
+                            <p>Large buttered popcorn - $5.00 (Combo price: $4.00)</p>
+                        </div>
+                        <select id="popcorn" class="extra-select">
+                            <option value="0">None</option>
+                            <option value="1">1 x $5.00</option>
+                            <option value="2">2 x $10.00</option>
+                            <option value="3">3 x $15.00</option>
+                        </select>
+                    </div>
+                    
+                    <div class="extra-item">
+                        <div>
+                            <h3>Drink</h3>
+                            <p>Large soft drink - $4.00 (Combo price: $3.00)</p>
+                        </div>
+                        <select id="drink" class="extra-select">
+                            <option value="0">None</option>
+                            <option value="1">1 x $4.00</option>
+                            <option value="2">2 x $8.00</option>
+                            <option value="3">3 x $12.00</option>
+                        </select>
+                    </div>
+                    
+                    <div class="extra-item">
+                        <div>
+                            <h3>Combo (Popcorn + Drink)</h3>
+                            <p>Save $2.00 when buying together - $6.00</p>
+                        </div>
+                        <select id="combo" class="extra-select">
+                            <option value="0">None</option>
+                            <option value="1">1 x $6.00</option>
+                            <option value="2">2 x $12.00</option>
+                            <option value="3">3 x $18.00</option>
+                        </select>
                     </div>
                 </div>
+                
+                <div class="customer-info">
+                    <h2>Customer Information</h2>
+                    <input type="text" id="customer-name" placeholder="Full Name" required>
+                    <input type="tel" id="customer-phone" placeholder="Phone Number" required>
+                    <input type="email" id="customer-email" placeholder="Email (optional)">
+                </div>
+                
+                <div class="total" id="total-price">
+                    Total: $12.00
+                </div>
+                
+                <div class="checkout">
+                    <button id="checkout-button">Complete Booking</button>
+                </div>
             </div>
-        </section>
-        <section>
-            <div id="movie-list"></div>
         </section>
         <footer>
             <div class="social-list">
