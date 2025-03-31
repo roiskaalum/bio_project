@@ -2,6 +2,7 @@ const container = document.querySelector('.cinemaContainer');
 const seats = document.querySelectorAll('.row .seat:not(.occupied)');
 const count = document.getElementById('sitTal');
 const total = document.getElementById('sittotal');
+const number = document.getElementById('sitvalg');
 //Skal give pris pr sæde
 
 var ticketPris = 70;
@@ -12,6 +13,7 @@ function updateSelectedCount()
 
     const selectedseatsCount = selectedseats.length;
 
+    
     count.innerText = selectedseatsCount;
     total.innerText = selectedseatsCount * ticketPris;
 
@@ -26,3 +28,11 @@ container.addEventListener('click', e =>{
         updateSelectedCount();
     }
 });
+
+var item = this;
+switch($(item).attr('class')){
+
+    case 'row a one':
+        "A1";
+        break;
+}
