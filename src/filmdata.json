@@ -4,346 +4,666 @@
             "title" : "Min_søsters_børn_vælterbyen",
             "genre" : ["lorem", "ipsum", "ipsum", "ipsum", "ipsum", "ipsum", "ipsum", "ipsum"],
             "description" : {
-                "long" : "lorem ipsum",
-                "short" : "lorem ipsum"
+                "long" : "lorem ipsum"
             },
             "images" : {
                 "base" : "images/min_søsters_børn_vælterbyen.jpg",
                 "small" : "images/min_søsters_børn_vælterbyen_small.jpg",
                 "big" : "images/min_søsters_børn_vælterbyen_big.jpg"
-            }
+            },
+            "aldersgrænse" : "for alle aldre",
+            "actors" : [
+"Dirch Passer",
+"Jeanne Darville",
+"Karl Stegger",
+"Ove Sprogøe",
+"Pusle Helmuth",
+"Sigrid Horne-Rasmussen",
+"William Rosenberg",
+"Axel Strøbye",
+"Jan Priiskorn Schmidt",
+"Vibeke Houlberg",
+"Michael Rosenberg",
+"Sonja Oppenhagen",
+"Lars Madsen",
+"Ole Monty",
+"Bertel Lauring",
+"Hanne Borchsenius"
+                ]
         },
         
         {
             "title" : "Min_søsters_børn_brylluprejsen",
             "genre" : ["Komedie", "Familie"],
             "description" : {
-                "long" : "lorem ipsum",
-                "short" : "lorem ipsum"
+                "long" : "lorem ipsum"
             },
             "images" : {
                 "base" : "images/min_søsters_børn_brylluprejsen.jpg",
                 "small" : "images/min_søsters_børn_brylluprejsen_small.jpg",
                 "big" : "images/min_søsters_børn_brylluprejsen_big.jpg"
-            }
+            },
+            "aldersgrænse" : "for alle aldre",
+            "actors" : [
+"Axel Strøbye",
+"Birgit Sadolin",
+"Jeanne Darville",
+"Karl Stegger",
+"Sonja Oppenhagen",
+"William Rosenberg",
+"Jan Priiskorn Schmidt",
+"Vibeke Houlberg",
+"Michael Rosenberg",
+"Pusle Helmuth",
+"Lars Madsen",
+"Jørgen Kiil",
+"Ole Ernst"
+            ]
         },
         
         {
             "title" : "Min_søsters_børn",
             "genre" : ["Komedie", "Familie"],
             "description" : {
-                "long" : "lorem ipsum",
-                "short" : "lorem ipsum"
+                "long" : "lorem ipsum"
             },
             "images" : {
                 "base" : "images/min_søsters_børn.jpg",
                 "small" : "images/min_søsters_børn_small.jpg",
                 "big" : "images/min_søsters_børn_big.jpg"
-            }
+            },
+            "aldersgrænse" : "for alle aldre",
+            "actors" : [
+"Axel Strøbye",
+"Birgit Sadolin",
+"Jan Priiskorn Schmidt",
+"Jeanne Darville",
+"Karl Stegger",
+"Pusle Helmuth",
+"Sonja Oppenhagen",
+"William Rosenberg",
+"Vibeke Houlberg",
+"Michael Rosenberg",
+"Ole Søltoft",
+"Jytte Abildstrøm"
+            ]
         },
         
         {
             "title" : "Mig_og_min_lillebror_og_storsmuglerne",
             "genre" : ["Komedie", "Familie"],
             "description" : {
-                "long" : "lorem ipsum",
-                "short" : "lorem ipsum"
+                "long" : "lorem ipsum"
             },
             "images" : {
                 "base" : "images/mig_og_min_lillebror_og_storsmuglerne.jpg",
                 "small" : "images/mig_og_min_lillebror_og_storsmuglerne_small.jpg",
                 "big" : "images/mig_og_min_lillebror_og_storsmuglerne_big.jpg"
-            }
+            },
+            "aldersgrænse" : "for alle aldre",
+            "actors" : [
+"Dirch Passer",
+"Else-Marie Hansen",
+"Henrik Wiehe",
+"Jesper Langberg",
+"Karl Stegger",
+"Palle Huld",
+"Poul Reichhardt",
+"Guri Richter",
+"Lotte Horne",
+"Christian Arhoff",
+"Bjørn Puggaard-Muller",
+"Peter Reichhardt"
+            ]
         },
         
         {
-            "title" : "Mafian_det_osse_mig",
+            "title" : "Mafian_-_det_er_osse_mig",
             "genre" : ["Komedie", "Krimi"],
             "description" : {
-                "long" : "lorem ipsum",
-                "short" : "lorem ipsum"
+                "long" : "lorem ipsum"
             },
             "images" : {
                 "base" : "images/mfian_det_osse_mig.jpg",
                 "small" : "images/mfian_det_osse_mig_small.jpg",
                 "big" : "images/mfian_det_osse_mig_big.jpg"
-            }
+            },
+            "aldersgrænse" : "for alle aldre",
+            "actors" : [
+"Axel Strøbye",
+"Dick Kaysø",
+"Dirch Passer",
+"Freddy Albeck",
+"Jytte Abildstrøm",
+"Lone Hertz",
+"Preben Kaas",
+"Preben Mahrt",
+"Per Bentzon",
+"Poul Glargaard",
+"Henrik Wiehe",
+"Ulf Pilgaard"
+            ]
         },
         
         {
             "title" : "Hvor_er_liget,_Møller?",
             "genre" : ["Komedie", "Krimi"],
             "description" : {
-                "long" : "lorem ipsum",
-                "short" : "lorem ipsum"
+                "long" : "lorem ipsum"
             },
             "images" : {
                 "base" : "images/hvor_er_liget_møller.jpg",
                 "small" : "images/hvor_er_liget_møller_small.jpg",
                 "big" : "images/hvor_er_liget_møller_big.jpg"
-            }
+            },
+            "aldersgrænse" : "for alle aldre",
+            "actors" : [
+"Dirch Passer",
+"Preben Kaas",
+"Sisse Reingaard",
+"Ann Marie Lie",
+"Jean Squerent",
+"Jonnie Christen",
+"Henry Voersaa"
+            ]
         },
         
         {
             "title" : "Far_til_fire_på_landet",
             "genre" : ["Familie", "Komedie"],
             "description" : {
-                "long" : "lorem ipsum",
-                "short" : "lorem ipsum"
+                "long" : "lorem ipsum"
             },
             "images" : {
                 "base" : "images/far_til_fire_på_landet.jpg",
                 "small" : "images/far_til_fire_på_landet_small.jpg",
                 "big" : "images/far_til_fire_på_landet_big.jpg"
-            }
+            },
+            "aldersgrænse" : "for alle aldre",
+            "actors" : [
+"Karl Stegger",
+"Birgitte Bruun",
+"Ib Mossin",
+"Peter Malberg",
+"Otto Møller Jensen",
+"Ole Neumann",
+"Louis Miehe-Renard",
+"Rudi Hansen"
+            ]
         },
         
         {
             "title" : "Far_til_fire_og_onkel_sofus",
             "genre" : ["Familie", "Komedie"],
             "description" : {
-                "long" : "lorem ipsum",
-                "short" : "lorem ipsum"
+                "long" : "lorem ipsum"
             },
             "images" : {
                 "base" : "images/far_til_fire_og_onkel_sofus.jpg",
                 "small" : "images/far_til_fire_og_onkel_sofus_small.jpg",
                 "big" : "images/far_til_fire_og_onkel_sofus_big.jpg"
-            }
+            },
+            "aldersgrænse" : "for alle aldre",
+            "actors" : [
+"Karl Stegger",
+"Birgitte Bruun",
+"Peter Malberg",
+"Otto Møller Jensen",
+"Ole Neumann",
+"Ib Mossin",
+"Rudi Hansen",
+"Agnes Rehni",
+"Annizette Hansen",
+"Grethe Nielsen",
+"Holger Juul Hansen",
+"Kirsten Passer"
+            ]
         },
         
         {
             "title" : "Far_til_fire_med_fuld_musik",
             "genre" : ["Familie", "Komedie"],
             "description" : {
-                "long" : "lorem ipsum",
-                "short" : "lorem ipsum"
+                "long" : "lorem ipsum"
             },
             "images" : {
                 "base" : "images/far_til_fire_med_fuld_musik.jpg",
                 "small" : "images/far_til_fire_med_fuld_musik_small.jpg",
                 "big" : "images/far_til_fire_med_fuld_musik_big.jpg"
-            }
+            },
+            "aldersgrænse" : "for alle aldre",
+            "actors" : [
+"Karl Stegger",
+"Hanne Borchsenius",
+"Peter Malberg",
+"Agnes Rehni",
+"Otto Møller Jensen",
+"Ib Mossin",
+"Ole Neumann",
+"Kirsten Passer",
+"Jørgen Buckhøj",
+"Rudi Hansen",
+"Harald Nielsen"
+            ]
         },
         
         {
             "title" : "Far_til_fire_i_sneen",
             "genre" : ["Familie", "Komedie"],
             "description" : {
-                "long" : "lorem ipsum",
-                "short" : "lorem ipsum"
+                "long" : "lorem ipsum"
             },
             "images" : {
                 "base" : "images/far_til_fire_i_sneen.jpg",
                 "small" : "images/far_til_fire_i_sneen_small.jpg",
                 "big" : "images/far_til_fire_i_sneen_big.jpg"
-            }
+            },
+            "aldersgrænse" : "for alle aldre",
+            "actors" : [
+"Ib Schønberg",
+"Birgitte Bruun",
+"Peter Malberg",
+"Otto Møller Jensen",
+"Ole Neumann",
+"Ib Mossin",
+"Rudi Hansen",
+"Axel Strøbye",
+"Agnes Rehni",
+"Preben Neergaard",
+"Leif B. Hendil"
+            ]
         },
         
         {
             "title" : "Far_til_fire_i_byen",
             "genre" : ["Familie", "Komedie"],
             "description" : {
-                "long" : "lorem ipsum",
-                "short" : "lorem ipsum"
+                "long" : "lorem ipsum"
             },
             "images" : {
                 "base" : "images/far_til_fire_i_byen.jpg",
                 "small" : "images/far_til_fire_i_byen_small.jpg",
                 "big" : "images/far_til_fire_i_byen_big.jpg"
-            }
+            },
+            "aldersgrænse" : "for alle aldre",
+            "actors" : [
+"Karl Stegger",
+"Birgitte Bruun",
+"Peter Malberg",
+"Otto Møller Jensen",
+"Ole Neumann",
+"Rudi Hansen",
+"Ib Mossin",
+"Ebbe Langberg"
+            ]
         },
         
         {
             "title" : "Far_til_fire",
             "genre" : ["Familie", "Komedie"],
             "description" : {
-                "long" : "lorem ipsum",
-                "short" : "lorem ipsum"
+                "long" : "lorem ipsum"
             },
             "images" : {
                 "base" : "images/far_til_fire.jpg",
                 "small" : "images/far_til_fire_small.jpg",
                 "big" : "images/far_til_fire_big.jpg"
-            }
+            },
+            "aldersgrænse" : "for alle aldre",
+            "actors" : [
+"Birgitte Bruun",
+"Ib Schønberg",
+"Peter Malberg",
+"Jørgen Reenberg",
+"Ole Neumann",
+"Otto Møller Jensen",
+"Rudi Hansen",
+"Agnes Rehni",
+"Ib Mossin",
+"Ove Sprogøe",
+"Poul Reichhardt",
+"Paul Hagen",
+"Einar Juhl"
+            ]
         },
         
         {
             "title" : "Een_pige_og_39_sømænd",
             "genre" : ["Komedie", "Romantik"],
             "description" : {
-                "long" : "lorem ipsum",
-                "short" : "lorem ipsum"
+                "long" : "lorem ipsum"
             },
             "images" : {
                 "base" : "images/een_pige_og_39_sømænd.jpg",
                 "small" : "images/een_pige_og_39_sømænd_small.jpg",
                 "big" : "images/een_pige_og_39_sømænd_big.jpg"
-            }
+            },
+            "aldersgrænse" : "for alle aldre",
+            "actors" : [
+"Axel Strøbye",
+"Birgit Sadolin",
+"Karl Stegger",
+"Morten Grunwald",
+"Poul Bundgaard",
+"Ove Sprogøe",
+"Sigrid Horne-Rasmussen",
+"Arthur Jensen",
+"Bjørn Puggaard-Muller",
+"Jan Priiskorn Schmidt",
+"Jesper Langberg"
+            ]
         },
         
         {
             "title" : "Bussen",
             "genre" : ["Komedie", "Drama"],
             "description" : {
-                "long" : "lorem ipsum",
-                "short" : "lorem ipsum"
+                "long" : "lorem ipsum"
             },
             "images" : {
                 "base" : "images/Bussen.jpg",
                 "small" : "images/Bussen_small.jpg",
                 "big" : "images/Bussen_big.jpg"
-            }
+            },
+            "aldersgrænse" : "for alle aldre",
+            "actors" : [
+
+            ]
         },
         
         {
             "title" : "Ved_Kongelunden",
             "genre" : ["Komedie", "Musical", "Romantik"],
             "description" : {
-                "long" : "lorem ipsum",
-                "short" : "lorem ipsum"
+                "long" : "lorem ipsum"
             },
             "images" : {
                 "base" : "images/ved_kongelunden.jpg",
                 "small" : "images/ved_kongelunden_small.jpg",
                 "big" : "images/ved_kongelunden_big.jpg"
-            }
+            },
+            "aldersgrænse" : "for alle aldre",
+            "actors" : [
+"Dirch Passer",
+"Karl Stegger",
+"Malene Schwartz",
+"Ove Sprogøe",
+"Paul Hagen",
+"Lily Broberg",
+"Lone Hertz",
+"Axel Strøbye",
+"Ole Monty",
+"Arthur Jensen"
+            ]
         },
         
         {
             "title" : "Tre_piger_i_paris",
             "genre" : ["lorem", "ipsum"],
             "description" : {
-                "long" : "lorem ipsum",
-                "short" : "lorem ipsum"
+                "long" : "lorem ipsum"
             },
             "images" : {
                 "base" : "images/tre_piger_i_paris.jpg",
                 "small" : "images/tre_piger_i_paris_small.jpg",
                 "big" : "images/tre_piger_i_paris_big.jpg"
-            }
+            },
+            "aldersgrænse" : "for alle aldre",
+            "actors" : [
+"Ghita Nørby",
+"Bibi Morat",
+"Daniel Gelin",
+"Dirch Passer",
+"Erling Schroeder",
+"Gabriel Axel",
+"Hanne Borchsenius",
+"Jacques Mauclair",
+"Lillian Weber Hansen",
+"Noel Roquevert",
+"Paul Hagen",
+"Robert Olivieri",
+"Susse Wold",
+"Veronique Verlacq"
+            ]
         },
         
         {
             "title" : "Sjov_i_gaden",
             "genre" : ["Komedie"],
             "description" : {
-                "long" : "lorem ipsum",
-                "short" : "lorem ipsum"
+                "long" : "lorem ipsum"
             },
             "images" : {
                 "base" : "images/sjov_i_gaden.jpg",
                 "small" : "images/sjov_i_gaden_small.jpg",
                 "big" : "images/sjov_i_gaden_big.jpg"
-            }
+            },
+            "aldersgrænse" : "for alle aldre",
+            "actors" : [
+"Birgit Sadolin",
+"Dirch Passer",
+"Karl Stegger",
+"Ove Sprogøe",
+"Willy Rathnov",
+"Winnie Mortensen",
+"Carl Ottosen",
+"Poul Bundgaard",
+"Bodil Udsen",
+"Claus Ryskjær"
+            ]
         },
         
         {
             "title" : "Reptilicus",
             "genre" : ["Gyser", "Action", "Drama", "Sci-fi"],
             "description" : {
-                "long" : "lorem ipsum",
-                "short" : "lorem ipsum"
+                "long" : "lorem ipsum"
             },
             "images" : {
                 "base" : "images/reptilicus.jpg",
                 "small" : "images/reptilicus_small.jpg",
                 "big" : "images/reptilicus_big.jpg"
-            }
+            },
+            "aldersgrænse" : "for alle aldre",
+            "actors" : [
+"Ann Smyrner",
+"Asbjørn Andersen",
+"Bent Mejding",
+"Bodil Miller",
+"Carl Ottosen",
+"Dirch Passer",
+"Kjeld Petersen",
+"Mimi Heinrich"
+            ]
         },
         
         {
             "title" : "Pigen_og_greven",
             "genre" : ["Komedie", "Romantik"],
             "description" : {
-                "long" : "lorem ipsum",
-                "short" : "lorem ipsum"
+                "long" : "lorem ipsum"
             },
             "images" : {
                 "base" : "images/pigen_og_greven.jpg",
                 "small" : "images/pigen_og_greven_small.jpg",
                 "big" : "images/pigen_og_greven_big.jpg"
-            }
+            },
+            "aldersgrænse" : "for alle aldre",
+            "actors" : [
+"Dirch Passer",
+"Karin Nellemose",
+"Lene Tiemroth",
+"Malene Schwartz",
+"Peter Steen",
+"Josephine Passer",
+"Karl Stegger",
+"Ove Sprogøe",
+"Sigrid Horne-Rasmussen",
+"Paul Hagen",
+"Carl Ottosen",
+"Preben Mahrt",
+"Preben Kaas",
+"Poul Bundgaard"
+            ]
         },
         
         {
             "title" : "Olsen-banden_på_sporet",
             "genre" : ["Komedie", "Krimi"],
             "description" : {
-                "long" : "lorem ipsum",
-                "short" : "lorem ipsum"
+                "long" : "lorem ipsum"
             },
             "images" : {
                 "base" : "images/olsenbanden_på_sporet.jpg",
                 "small" : "images/olsenbanden_på_sporet_small.jpg",
                 "big" : "images/olsenbanden_på_sporet_big.jpg"
-            }
+            },
+            "aldersgrænse" : "for alle aldre",
+            "actors" : [
+"Ove Sprogøe",
+"Morten Grunwald",
+"Poul Bundgaard",
+"Axel Strøbye",
+"Jes Holtsø",
+"Kirsten Walther",
+"Ole Ernst",
+"Ove Verner Hansen",
+"Helge Kjærulff-Schmidt",
+"Paul Hagen"
+            ]
         },
         
         {
             "title" : "Olsen-banden_går_i_krig",
             "genre" : ["Komedie", "Krimi"],
             "description" : {
-                "long" : "lorem ipsum",
-                "short" : "lorem ipsum"
+                "long" : "lorem ipsum"
             },
             "images" : {
                 "base" : "images/olsenbanden_går_i_krig.jpg",
                 "small" : "images/olsenbanden_går_i_krig_small.jpg",
                 "big" : "images/olsenbanden_går_i_krig_big.jpg"
-            }
+            },
+            "aldersgrænse" : "for alle aldre",
+            "actors" : [
+
+            ]
         },
         {
             "title" : "Olsen-banden_går_amok",
             "genre" : ["Komedie", "Krimi"],
             "description" : {
-                "long" : "lorem ipsum",
-                "short" : "lorem ipsum"
+                "long" : "lorem ipsum"
             },
             "images" : {
                 "base" : "images/olsenbanden_går_amok.jpg",
                 "small" : "images/olsenbanden_går_amok_small.jpg",
                 "big" : "images/olsenbanden_går_amok_big.jpg"
-            }
+            },
+            "aldersgrænse" : "for alle aldre",
+            "actors" : [
+"Ove Sprogøe",
+"Morten Grunwald",
+"Poul Bundgaard",
+"Axel Strøbye",
+"Kirsten Walther",
+"Ole Ernst",
+"Ove Verner Hansen",
+"Karl Stegger",
+"Bjørn Watt Boolsen",
+"Ejner Federspiel",
+"Emil Hass Christensen",
+"Edward Fleming",
+"Kirsten Norholt",
+"Bertel Lauring",
+"Tom Mcewan"
+            ]
         },
         {
-            "title" : "Olsen-banden_der_ud_af",
+            "title" : "Olsen-banden_derud_a'",
             "genre" : ["Komedie", "Krimi"],
             "description" : {
-                "long" : "lorem ipsum",
-                "short" : "lorem ipsum"
+                "long" : "lorem ipsum"
             },
             "images" : {
                 "base" : "images/olsenbanden_der_ud_af.jpg",
                 "small" : "images/olsenbanden_der_ud_af_small.jpg",
                 "big" : "images/olsenbanden_der_ud_af_big.jpg"
-            }
+            },
+            "aldersgrænse" : "for alle aldre",
+            "actors" : [
+"Ove Sprogøe",
+"Morten Grunwald",
+"Poul Bundgaard",
+"Kirsten Walther",
+"Claus Ryskjær",
+"Paul Hagen",
+"Ove Verner Hansen",
+"Axel Strøbye",
+"Dick Kaysø",
+"Holger Juul Hansen",
+"Karl Stegger",
+"Arthur Jensen",
+"Alf Andersen",
+"Bjørn Watt Boolsen"
+            ]
         },
         {
             "title" : "Olsen-banden_det_store_kup",
             "genre" : ["Komedie", "Krimi"],
             "description" : {
-                "long" : "lorem ipsum",
-                "short" : "lorem ipsum"
+                "long" : "lorem ipsum"
             },
             "images" : {
                 "base" : "images/olsenbanden_det_store_kup.jpg",
                 "small" : "images/olsenbanden_det_store_kup_small.jpg",
                 "big" : "images/olsenbanden_det_store_kup_big.jpg"
-            }
+            },
+            "aldersgrænse" : "for alle aldre",
+            "actors" : [
+"Arthur Jensen",
+"Jes Holtsø",
+"Kirsten Walther",
+"Morten Grunwald",
+"Ove Sprogøe",
+"Poul Bundgaard",
+"Poul Reichhardt",
+"Jesper Langberg",
+"Helle Virkner",
+"Karl Stegger",
+"Bjørn Watt Boolsen",
+"Asbjørn Andersen",
+"Claus Ryskjær",
+"Ove Verner Hansen",
+"Jens Okking"
+            ]
         },
         {
             "title" : "Olsen-banden",
             "genre" : ["Komedie", "Krimi"],
             "description" : { 
-                "long" : "lorem ipsum",
-                "short" : "lorem ipsum"
+                "long" : "lorem ipsum"
             },
             "images" : {
                 "base" : "images/olsenbanden.jpg",
                 "small" : "images/olsen_banden_small.jpg",
                 "big" : "images/olsen_banden_big.jpg"
-            }
+            },
+            "aldersgrænse" : "for alle aldre",
+            "actors" : [
+"Ove Sprogøe",
+"Morten Grunwald",
+"Poul Bundgaard",
+"Kirsten Walther",
+"Jes Holtsø",
+"Peter Steen",
+"Poul Reichhardt",
+"Lotte Tarp",
+"Grethe Sønck",
+"Paul Hagen",
+"Arthur Jensen",
+"Ulf Pilgaard"
+            ]
         }
     ]
 }
