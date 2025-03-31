@@ -109,7 +109,7 @@ async function displayByTitle(title, htmlElement) {
         button.setAttribute("data-type", movieRef.title);
         button.onclick = function() {
             const movieTitleBtn = button.getAttribute("data-type");
-            window.location.href = `order.html?title = ${encodeURIComponent(movieTitleBtn)}`;
+            window.location.href = `chooseseat.html?title = ${encodeURIComponent(movieTitleBtn)}`;
         };
 
         const titleAndDescriptionDiv = document.createElement("div");

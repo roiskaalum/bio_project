@@ -1,17 +1,25 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
 .single-movie-title {
     font-size: 4em;
+    padding:0.3em;
+    width: 90%;
 }
 
 .single-movie-img {
     align-self: start;
     justify-self: start;
-    width: 100%;
+    width: 90%;
+    margin:0.3em;
 }
 .single-movie-description {
     font-size: 1.5em;
-    margin: 0.3em;
     padding: 0.3em;
     padding-block: 1em;
+    width: 90%;
 }
 .order-ticket-btn {
     background-color: var(--clr-primary-400);
@@ -30,17 +38,31 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 90%;
 }
 
 .single-movie-container {
-    width:100%;
     display:grid;
+    width: 100%;
     grid-template-columns: 35% 1fr;
+    gap: 0;
+    margin:0;
+    padding:0;
 }
 
-@media(max-width: 426px) {
+@media(max-width: 578px) {
     .single-movie-container {
         grid-template-columns: 1fr;
+    }
+}
+@media(max-width: 426px) {
+    .single-movie-img {
+        width: fit-content;
+    }
+
+    .text-container {
+        width:fit-content;
+        font-size: 0.6em;
+        word-break:break-all;
     }
 }
