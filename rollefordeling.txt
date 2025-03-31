@@ -17,5 +17,20 @@ Roi:
 - darkmode_black.png & darkmode_white.png & nav-burger-menu.png & nav-burger-menu-white.png & facebook.png & instagram.png & twitter.png
 
 
+Line:
+- chooseseat.html
+----
+- filmbanner.js
+- choose.js
+(Jeg startede med at prøve at lave noget localstorage, men det var Roi der fiksede det :) )
+----
+- bannerstyle.css
+- cinamastyle.css
 
+I guess det var mig der fandt billederne af de forskellige film.
+
+[abandoned]
+- snack_køb.html
+- snackvalg.json
+- snacks.js
 
