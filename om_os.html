@@ -1,57 +1,20 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Klassiske Film</title>
+        <title>Klassiske Film | Om Os</title>
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="favicon.ico" type="image/x-icon">
-        <link rel="stylesheet" type="text/css" href="src/style.css">
-        <script src="src/shared.js" defer></script>
-        <script src="src/main.js" defer></script>
-        <style>
-            body {
-                background-color: --clr-accent-200;
-            }
-            input[type=text], select, textarea {
-            width: 100%; /* Full width */
-            padding: 12px; /* Some padding */ 
-            border: 1px solid #ccc; /* Gray border */
-            border-radius: 4px; /* Rounded borders */
-            box-sizing: border-box; /* Make sure that padding and width stays in place */
-            margin-top: 6px; /* Add a top margin */
-            margin-bottom: 16px; /* Bottom margin */
-            resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-            }
-
-            /* Style the submit button with a specific background color etc */
-            input[type=submit] {
-            background-color: #04AA6D;
-            color: white;
-            padding: 12px 20px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            }
-
-            /* When moving the mouse over the submit button, add a darker green color */
-            input[type=submit]:hover {
-            background-color: #45a049;
-            }
-
-            /* Add a background color and some padding around the form */
-            .container {
-            border-radius: 5px;
-            background-color: #f2f2f2;
-            padding: 20px;
-            margin: 0 10rem;
-            }
-        </style>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/om_os.css">
+        <script src="js/shared.js" defer></script>
     </head>
     <body>
         <nav>
             <div class="nav-container" role="list" aria-label="Primary Navigation">
-                <a class="nav-item mobile-hidden active" data="1" href="index.html">Hjem</a>
+                <a class="nav-item mobile-hidden" data="1" href="index.html">Hjem</a>
                 <a class="nav-item mobile-hidden" data="2" href="movie.html">Film</a>
-                <a class="nav-item mobile-hidden" data="3" href="om_os.html">Om Os</a>
+                <a class="nav-item mobile-hidden active" data="3" href="om_os.html">Om Os</a>
                 <button id="theme-toggle" class="dark-btn"><img class="nav-item" id="theme-icon" src="images/darkmode_black.png"></button>
                 <div class="nav-item burger-menu" role="list" aria-label="Primary Navigation Burger Menu">
                     <button class="burger-menu-button" id="burger-menu-button"><img src="images/nav-burger-menu.png" id="burgerImage" alt="Image For Hamburger Menu For Mobile Navigation"></button>
