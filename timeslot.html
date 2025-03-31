@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Klassiske Film | Bestilling</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="src/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/timeslotpicker.css">
+    <script src="js/shared.js" defer></script>
+    <script src="js/timeslotpicker.js" defer></script>
+</head>
+<body>
+    <nav>
+        <div class="nav-container" role="list" aria-label="Primary Navigation">
+            <a class="nav-item mobile-hidden active" data="1" href="index.html">Hjem</a>
+            <a class="nav-item mobile-hidden" data="2" href="movie.html">Film</a>
+            <a class="nav-item mobile-hidden" data="3" href="om_os.html">Om Os</a>
+            <button id="theme-toggle" class="dark-btn"><img class="nav-item" id="theme-icon" src="images/darkmode_black.png"></button>
+            <div class="nav-item burger-menu" role="list" aria-label="Primary Navigation Burger Menu">
+                <button class="burger-menu-button" id="burger-menu-button"><img src="images/nav-burger-menu.png" id="burgerImage" alt="Image For Hamburger Menu For Mobile Navigation"></button>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <h1 id="movie-title">Avengers: Endgame</h1>
+        <div class="cinema-selector">
+            <label for="hall-select">Select Cinema Hall:</label>
+            <select id="hall-select" class="hall-select">
+                <!-- Options will be populated by JavaScript -->
+            </select>
+        </div>
+        <div class="calendar-container">
+            <div class="calendar-header">
+                <div class="calendar-nav">
+                    <button id="prev-week" class="nav-button">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="15 18 9 12 15 6"></polyline>
+                        </svg>
+                        Previous
+                    </button>
+                    <h2 id="week-range" class="week-range">Week of ...</h2>
+                    <button id="next-week" class="nav-button">
+                        Next
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </button>
+                </div>
+                <div class="week-days">
+                    <!-- Days will be populated by JavaScript -->
+                </div>
+            </div>
+            <div class="timeslot-container">
+                <!-- Timeslots will be populated by JavaScript -->
+            </div>
+        </div>
+        <div class="calendar-container-mobile">
+            <div class="calendar-header">
+                <div class="calendar-nav">
+                    <button id="prev-week-mobile" class="nav-button">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="15 18 9 12 15 6"></polyline>
+                        </svg>
+                        Previous
+                    </button>
+                    <h2 id="week-range-mobile" class="week-range">Week of ...</h2>
+                    <button id="next-week-mobile" class="nav-button">
+                        Next
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </button>
+                </div>
+                <div class="container-timeslot">
+                    <div class="week-days">
+                        <!-- Days will be populated by JavaScript -->
+                    </div>
+                    <div class="timeslot-container">
+                        <!-- Timeslots will be populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <footer>
+        <div class="social-list">
+            <a href="https://www.facebook.com"><img src="images/facebook.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com"><img src="images/instagram.png" alt="Instagram"></a>
+            <a href="https://www.twitter.com"><img src="images/twitter.png" alt="Twitter"></a>
+        </div>
+    </footer>
+</body>
+</html>
