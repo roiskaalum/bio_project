@@ -96,3 +96,23 @@ container.addEventListener('click', e =>{
     }
 });
 
+document.addEventListener("DOMContentLoaded", () => {
+    document.getElementsByClassName("button")[0].addEventListener("click", handleBetalBtnClick);
+});
+
+
+function handleBetalBtnClick(event) {
+    const params = new URLSearchParams(window.location.search);
+    console.log("params:");
+    console.log(params);
+    console.log(params.get('title'));
+    console.log(params.get('hall'));
+    console.log(params.get('date'));
+    console.log(params.get('day'));
+    console.log(params.get('time'));
+    makePurchase(params);
+}
+
+function makePurchase(params){
+    alert(`Du bestilte biletter til ${params.get('title')} kl ${params.get('time')} i hal ${params.get('hall')} ${params.get('day')} dato ${params.get('date')}`);
+}

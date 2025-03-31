@@ -1,0 +1,21 @@
+Roi:
+- index.html {nav, footer, movie-list} !MEN IKKE BANNER.
+- movie.html
+- timeslot.html
+- favicon.ico
+- timeslots.json (bliver ikke brugt)
+- style.css
+- movie.description.css
+- timeslotpicker.css
+- main.js
+- moviefilter.js
+- seats.js (Vi bruger den ikke, vi bruger Lines choose.js)
+- shared.js
+- test.js
+- timeslotpicker.js
+- choose.js {handleBetalBtnClick & makePurchase metoderne kun}
+- darkmode_black.png & darkmode_white.png & nav-burger-menu.png & nav-burger-menu-white.png & facebook.png & instagram.png & twitter.png
+
+
+
+
