@@ -34,3 +34,10 @@ I guess det var mig der fandt billederne af de forskellige film.
 - snackvalg.json
 - snacks.js
 
+Jonathan:
+- om_os.html
+- filmdata.json
+lidt programmering (små fixes i andre filer)
+
+[abandoned]
+- checkout.html
