@@ -4,8 +4,9 @@
             "title" : "Min_søsters_børn_vælterbyen",
             "genre" : ["lorem", "ipsum", "ipsum", "ipsum", "ipsum", "ipsum", "ipsum", "ipsum"],
             "description" : {
-                "long" : "lorem ipsum"
+                "long" : "Pusle fylder seks år. Og selvom Onkel Erik er på ferie, lykkes det ham alligevel at lave rav i den, da han sender en gave fra Sydamerika. Det er en indiansk amulet, som kan opfylde alle ejerens ønsker. Det er Pusle ikke sen til at udnytte, og følgerne bliver både festlige og omfangsrige."
             },
+            "director" : "Annelise Reenberg",
             "images" : {
                 "base" : "images/min_søsters_børn_vælterbyen.jpg",
                 "small" : "images/min_søsters_børn_vælterbyen_small.jpg",
@@ -36,8 +37,9 @@
             "title" : "Min_søsters_børn_brylluprejsen",
             "genre" : ["Komedie", "Familie"],
             "description" : {
-                "long" : "lorem ipsum"
+                "long" : "Onkel Erik er blevet gift og skal på bryllupsrejse til Østrig med sin udkårne Lisbeth. Endelig alene, langt væk fra nevøer og niecer, tror de. Men hans søsters børn nægter at gå glip af et eventyr og finder en kreativ måde at snige sig med på bryllupsrejse."
             },
+            "director" : "Annelise Reenberg",
             "images" : {
                 "base" : "images/min_søsters_børn_brylluprejsen.jpg",
                 "small" : "images/min_søsters_børn_brylluprejsen_small.jpg",
@@ -65,8 +67,9 @@
             "title" : "Min_søsters_børn",
             "genre" : ["Komedie", "Familie"],
             "description" : {
-                "long" : "lorem ipsum"
+                "long" : "At der kan være langt fra tanke til handling, finder børnepsykologen Erik ud af, da han skal passe sin søsters børn. Hans tålmodighed og teorier om børneopdragelse bliver nemlig sat på utallige prøver af de seks livlige børn og deres kreative påfund."
             },
+            "director" : "Annelise Reenberg",
             "images" : {
                 "base" : "images/min_søsters_børn.jpg",
                 "small" : "images/min_søsters_børn_small.jpg",
@@ -93,8 +96,9 @@
             "title" : "Mig_og_min_lillebror_og_storsmuglerne",
             "genre" : ["Komedie", "Familie"],
             "description" : {
-                "long" : "lorem ipsum"
+                "long" : "Der er liv og glade dage på Bomø: Broen til fastlandet har bragt turister, og de bringer penge med sig. Én ting savner de lokale dog, for kroen må ikke servere spiritus. Så da fiskerbrødrene Severinsen får smuglervarer i nettet, og sognefogeden ikke vil tage imod de ulovlige flasker, deler de gladeligt ud til hele øen. Men snart er brødrene i myndighedernes søgelys, og et forsøg på at fange de rigtige smuglere bringer dem ud på meget dybt vand."
             },
+            "director" : "Lau Lauritzen Jr.",
             "images" : {
                 "base" : "images/mig_og_min_lillebror_og_storsmuglerne.jpg",
                 "small" : "images/mig_og_min_lillebror_og_storsmuglerne_small.jpg",
@@ -121,8 +125,9 @@
             "title" : "Mafian_-_det_er_osse_mig",
             "genre" : ["Komedie", "Krimi"],
             "description" : {
-                "long" : "lorem ipsum"
+                "long" : "Viktor 'Viffer' Hansen er blevet del af en rigtig mafiafamilie. Så meget faktisk, at han får bossens datter som belønning, da det lykkedes ham at sælge Rundetårn til en oliesheik. Han vil dog hellere have pengene, og så har han igen mafiaen på nakken."
             },
+            "director" : "Henning Ørnbak",
             "images" : {
                 "base" : "images/mfian_det_osse_mig.jpg",
                 "small" : "images/mfian_det_osse_mig_small.jpg",
@@ -149,8 +154,9 @@
             "title" : "Hvor_er_liget,_Møller?",
             "genre" : ["Komedie", "Krimi"],
             "description" : {
-                "long" : "lorem ipsum"
+                "long" : "De to særegne privatdetektiver Hårlung og Møller drager på en eksotisk ekspedition til Sct. Thomas. Rejsen derhen bliver dog også yderst begivenhedsrig. Især da de møder kvinden Helle, som har arvet et hus på øen og nu har forbrydere på nakken. Heldigvis har Hårlung og Møller ikke noget imod at hjælpe en smuk kvinde i nød."
             },
+            "director" : "Preben Kaas",
             "images" : {
                 "base" : "images/hvor_er_liget_møller.jpg",
                 "small" : "images/hvor_er_liget_møller_small.jpg",
@@ -172,8 +178,9 @@
             "title" : "Far_til_fire_på_landet",
             "genre" : ["Familie", "Komedie"],
             "description" : {
-                "long" : "lorem ipsum"
+                "long" : "Skoleklokken har ringet ud for sidste gang, det er sommer, og børnene har ferie. Men mens deres kammerater skal på landet, har far bestemt, at Mie, Ole og Lille Per skal henslæbe sommeren i rækkehuset. De giver dog ikke op, og i kampen mod far tager de et uventet våben i brug: Artighed."
             },
+            "director" : "Alice O'Fredericks",
             "images" : {
                 "base" : "images/far_til_fire_på_landet.jpg",
                 "small" : "images/far_til_fire_på_landet_small.jpg",
@@ -196,8 +203,9 @@
             "title" : "Far_til_fire_og_onkel_sofus",
             "genre" : ["Familie", "Komedie"],
             "description" : {
-                "long" : "lorem ipsum"
+                "long" : "Onkel Anders fylder 70. Som om det ikke er stort nok, venter han besøg hele vejen fra Amerika. Det er tvillingebroderen Sofus, som Anders ikke har set i 43 år, der kommer hjem. Og der er både høje forventninger og nervøsitet i familien forud for den - måske - rige onkels ankomst."
             },
+            "director" : "Alice O'Fredericks, Robert Saaskin",
             "images" : {
                 "base" : "images/far_til_fire_og_onkel_sofus.jpg",
                 "small" : "images/far_til_fire_og_onkel_sofus_small.jpg",
@@ -224,8 +232,9 @@
             "title" : "Far_til_fire_med_fuld_musik",
             "genre" : ["Familie", "Komedie"],
             "description" : {
-                "long" : "lorem ipsum"
+                "long" : "Det er fastelavn hjemme hos far, hvor Søs og Peter bor med deres lille baby og Mie og Ole er blevet teenagere. Traditionerne bliver fulgt til punkt og prikke - Lille Per vækker de andre med morgenrisning, og så står den på udklædninger, fru Sejersens fastelavnsboller og tøndeslagning ved Onkel Anders."
             },
+            "director" : "Alice O'Fredericks",
             "images" : {
                 "base" : "images/far_til_fire_med_fuld_musik.jpg",
                 "small" : "images/far_til_fire_med_fuld_musik_small.jpg",
@@ -251,8 +260,9 @@
             "title" : "Far_til_fire_i_sneen",
             "genre" : ["Familie", "Komedie"],
             "description" : {
-                "long" : "lorem ipsum"
+                "long" : "Far fylder 50 år, og samme dag vinder han en skiferie med hele familien til Norge – for at være en god trafikant. Han er dog ikke helt så dygtig nordpå og forstuver foden. Både Onkel Anders og fru Sejersen kommer ham til undsætning, så det er småt med afslapningen. Imens morer børnene sig i sneen og Søs overøses med opmærksomhed fra en pressefotograf."
             },
+            "director" : "Alice O'Fredericks",
             "images" : {
                 "base" : "images/far_til_fire_i_sneen.jpg",
                 "small" : "images/far_til_fire_i_sneen_small.jpg",
@@ -278,8 +288,9 @@
             "title" : "Far_til_fire_i_byen",
             "genre" : ["Familie", "Komedie"],
             "description" : {
-                "long" : "lorem ipsum"
+                "long" : "Lille Per starter i skole, men tilbringer det meste af tiden uden for døren. Mie anklages for tyveri, og Søs har kærlighedsproblemer. Da far ovenikøbet bliver fyret, begynder årets jul at ligne en trist en af slagsen. Men så begynder sneen at falde, og Mie og Ole får en idé."
             },
+            "director" : "Alice O'Fredericks",
             "images" : {
                 "base" : "images/far_til_fire_i_byen.jpg",
                 "small" : "images/far_til_fire_i_byen_small.jpg",
@@ -302,8 +313,9 @@
             "title" : "Far_til_fire",
             "genre" : ["Familie", "Komedie"],
             "description" : {
-                "long" : "lorem ipsum"
+                "long" : "Som far til fire er der nok at se til. Far har dog rigeligt at gøre med at holde Fru Sejersen fra livet. Hun sværmer højlydt for ham, mens den ansvarsfulde Søs ordner børn og hjem og drømmer i det stille om Poul Reichhardt. Han udskiftes med en mere nærværende model, da hun møder Mie og Oles lærer Jørgen. Men kan man kombinere rollerne som reservemor og ung forelsket?"
             },
+            "director" : "Alice O'Fredericks",
             "images" : {
                 "base" : "images/far_til_fire.jpg",
                 "small" : "images/far_til_fire_small.jpg",
@@ -331,8 +343,9 @@
             "title" : "Een_pige_og_39_sømænd",
             "genre" : ["Komedie", "Romantik"],
             "description" : {
-                "long" : "lorem ipsum"
+                "long" : "Det er med stor stolthed, at den nyuddannede radiotelegrafist Else påmønstrer skibet Warrigal og gør sin største drøm til virkelighed: at blive sømand. Hendes optimisme får dog hurtigt et skud for boven, da hun møder den strenge kaptajn Barker. Hendes begynderfejl hjælper ikke på populariteten hos det kritiske mandskab, men Else nægter at kaste drømmen om et liv på havet over bord."
             },
+            "director" : "Annelise Reenberg",
             "images" : {
                 "base" : "images/een_pige_og_39_sømænd.jpg",
                 "small" : "images/een_pige_og_39_sømænd_small.jpg",
@@ -358,29 +371,13 @@
             "title" : "Bussen",
             "genre" : ["Komedie", "Drama"],
             "description" : {
-                "long" : "lorem ipsum"
+                "long" : "Buschaufføren Martin tager det hele med et smil. Selvom bussen har set bedre dage, er der ingen stress, og ikke det, der ikke kan klares med en sang. Alligevel bryder byens nye kæmner sig ikke om Martins busdrift. Han planlægger derfor at lade et stort selskab overtage ruten. Men så tager byens kvinder affære."
             },
+            "director" : "Finn Henriksen",
             "images" : {
                 "base" : "images/Bussen.jpg",
                 "small" : "images/Bussen_small.jpg",
                 "big" : "images/Bussen_big.jpg"
-            },
-            "aldersgrænse" : "for alle aldre",
-            "actors" : [
-
-            ]
-        },
-        
-        {
-            "title" : "Ved_Kongelunden",
-            "genre" : ["Komedie", "Musical", "Romantik"],
-            "description" : {
-                "long" : "lorem ipsum"
-            },
-            "images" : {
-                "base" : "images/ved_kongelunden.jpg",
-                "small" : "images/ved_kongelunden_small.jpg",
-                "big" : "images/ved_kongelunden_big.jpg"
             },
             "aldersgrænse" : "for alle aldre",
             "actors" : [
@@ -398,11 +395,38 @@
         },
         
         {
+            "title" : "Ved_Kongelunden",
+            "genre" : ["Komedie", "Musical", "Romantik"],
+            "description" : {
+                "long" : "I en haveforening i Kongelunden på Amager bliver Olsen fyret fra sit tjenerjob, Anna opdager, at hun er gravid uden for ægteskab, og Jørgens kæreste slår op med ham. Men der er håb og sommer forude, for der kommer altid en sporvogn og en pige til."
+            },
+            "director" : "Poul Bang",
+            "images" : {
+                "base" : "images/ved_kongelunden.jpg",
+                "small" : "images/ved_kongelunden_small.jpg",
+                "big" : "images/ved_kongelunden_big.jpg"
+            },
+            "aldersgrænse" : "for alle aldre",
+            "actors" : [
+"Birgit Sadolin", 
+"Dirch Passer", 
+"Henry Nielsen", 
+"Ib Schønberg", 
+"Inger Lassen", 
+"Louis Miehe-Renard", 
+"Ove Sprogøe", 
+"Buster Larsen", 
+"Kate Mundt"
+            ]
+        },
+        
+        {
             "title" : "Tre_piger_i_paris",
             "genre" : ["lorem", "ipsum"],
             "description" : {
-                "long" : "lorem ipsum"
+                "long" : "Lotte, Hanne og Dorthe møder i toget til Paris de jævnaldrende Harald og Frederik. Ankommet i byernes by viser de to mænd vej til et hotel, inden de selv drager videre til Rivieraen. Veninderne følger dem til toget og vinker farvel. Men bagefter har de uheldigvis glemt hotellets navn. Så da Harald og Fredrik kommer tilbage for at lære de tre piger i Paris bedre at kende, er de svære at finde, og eftersøgningen går over stok og brosten."
             },
+            "director" : "Gabriel Axel",
             "images" : {
                 "base" : "images/tre_piger_i_paris.jpg",
                 "small" : "images/tre_piger_i_paris_small.jpg",
@@ -429,10 +453,11 @@
         
         {
             "title" : "Sjov_i_gaden",
-            "genre" : ["Komedie"],
+            "genre" : ["Komedie", "Familie"],
             "description" : {
-                "long" : "lorem ipsum"
+                "long" : "Den forældreløse pige Winnie kommer til Danmark med sin bamse for at bo hos sin faster Anna. I lufthavnen bliver hun dog bortført af nogle banditter under ledelse af smugleren 'Fløjten'. Winnie er ikke sådan at ryste - heller ikke da politet ankommer til smuglernes villa en mørk nat, og hele fem tøjbamser pludselig er i spil."
             },
+            "director" : "Carl Ottosen",
             "images" : {
                 "base" : "images/sjov_i_gaden.jpg",
                 "small" : "images/sjov_i_gaden_small.jpg",
@@ -457,8 +482,9 @@
             "title" : "Reptilicus",
             "genre" : ["Gyser", "Action", "Drama", "Sci-fi"],
             "description" : {
-                "long" : "lorem ipsum"
+                "long" : "Under en søgen efter olie finder Svend en frossen dinosaurhale, som han bringer med hjem til Danmarks Akvarium. Her bliver halen optøet ved et uheld, og snart regenererer dyret sig selv med skræmmende hast. Inden længe er et gigantisk frygtindgydende monster løs i København, og militæret er nødt til at erklære Danmark i undtagelsestilstand."
             },
+            "director" : "Poul Bang",
             "images" : {
                 "base" : "images/reptilicus.jpg",
                 "small" : "images/reptilicus_small.jpg",
@@ -481,8 +507,9 @@
             "title" : "Pigen_og_greven",
             "genre" : ["Komedie", "Romantik"],
             "description" : {
-                "long" : "lorem ipsum"
+                "long" : "Den unge grev Ditmar er netop vendt hjem fra et langt ophold i Amerika. Han opsøger ubekymret korpigen Susanne, som han før har haft et forhold til - uden at vide, at hun i mellemtiden har født deres fælles datter, Lulu. Susanne prøver at holde Lulu hemmelig for Ditmar, og deres kærlighed bliver ikke nemmere af, at hun falder i dårlig jord hos Ditmars familie på godset. Heldigvis får hun hjælp af suffløren og barnepigen Andreas."
             },
+            "director" : "Finn Henriksen",
             "images" : {
                 "base" : "images/pigen_og_greven.jpg",
                 "small" : "images/pigen_og_greven_small.jpg",
@@ -511,8 +538,9 @@
             "title" : "Olsen-banden_på_sporet",
             "genre" : ["Komedie", "Krimi"],
             "description" : {
-                "long" : "lorem ipsum"
+                "long" : "Olsen Banden har endelig fået millionerne og det halve kongerige på Mallorca. Alligevel har Egon svært ved at slappe af. Hans værste frygt bliver da også til virkelighed, da Bøffen stjæler deres penge for øjnene af en godt bedugget Yvonne. Snart er Egon tilbage i fængsel, og Olsen Banden på sporet af et nyt kup."
             },
+            "director" : "Erik Balling",
             "images" : {
                 "base" : "images/olsenbanden_på_sporet.jpg",
                 "small" : "images/olsenbanden_på_sporet_small.jpg",
@@ -537,28 +565,13 @@
             "title" : "Olsen-banden_går_i_krig",
             "genre" : ["Komedie", "Krimi"],
             "description" : {
-                "long" : "lorem ipsum"
+                "long" : "Udenlandske pengemænd har skumle planer om at omdanne Danmark til en feriepark for tyskere. Så denne gang går Egon, Benny og Kjeld ikke bare i aktion for millionerne, men for moderlandet og Daisy. Den kyniske kapitalist Bang-Johansen har dog ikke tænkt sig at gøre det nemt for dem, og snart hænger Egon på ydersiden af Københavns rådhusur."
             },
+            "director" : "Erik Balling",
             "images" : {
                 "base" : "images/olsenbanden_går_i_krig.jpg",
                 "small" : "images/olsenbanden_går_i_krig_small.jpg",
                 "big" : "images/olsenbanden_går_i_krig_big.jpg"
-            },
-            "aldersgrænse" : "for alle aldre",
-            "actors" : [
-
-            ]
-        },
-        {
-            "title" : "Olsen-banden_går_amok",
-            "genre" : ["Komedie", "Krimi"],
-            "description" : {
-                "long" : "lorem ipsum"
-            },
-            "images" : {
-                "base" : "images/olsenbanden_går_amok.jpg",
-                "small" : "images/olsenbanden_går_amok_small.jpg",
-                "big" : "images/olsenbanden_går_amok_big.jpg"
             },
             "aldersgrænse" : "for alle aldre",
             "actors" : [
@@ -580,11 +593,44 @@
             ]
         },
         {
+            "title" : "Olsen-banden_går_amok",
+            "genre" : ["Komedie", "Krimi"],
+            "description" : {
+                "long" : "Et kup i Palads-biografen mislykkes, og da Egon kommer ud af fængslet, er der ingen Benny og Kjeld. Til sin store frustration bliver han i stedet modtaget af en ædru, uduelig Dynamit-Harry. Desperat prøver Egon at få de nu lovlydige Benny og Kjeld med på sin geniale plan om at snuppe 6 millioner kroner i sorte penge på Christianshavn."
+            },
+            "director" : "Erik Balling",
+            "images" : {
+                "base" : "images/olsenbanden_går_amok.jpg",
+                "small" : "images/olsenbanden_går_amok_small.jpg",
+                "big" : "images/olsenbanden_går_amok_big.jpg"
+            },
+            "aldersgrænse" : "for alle aldre",
+            "actors" : [
+"Axel Strøbye", 
+"Kirsten Walther", 
+"Morten Grunwald", 
+"Ove Sprogøe", 
+"Poul Bundgaard", 
+"Preben Kaas", 
+"Jes Holtsø", 
+"Ove Verner Hansen", 
+"Arthur Jensen", 
+"Jesper Langberg", 
+"Helle Virkner", 
+"Ejner Federspiel", 
+"Birgitte Federspiel", 
+"Per Pallesen", 
+"Holger Perfort", 
+"Jens Okking"
+            ]
+        },
+        {
             "title" : "Olsen-banden_derud_a'",
             "genre" : ["Komedie", "Krimi"],
             "description" : {
-                "long" : "lorem ipsum"
+                "long" : "Egon får et chok, da han kommer ud af fængsel og opdager, at han er blevet udskiftet med en yngre model. Yvonnes nevø Georg er bandens nye leder, og han mener, at Egons metoder er forældede: Talkum og stetoskop er skiftet ud med computer. Egon nægter dog at blive kastet på skrotpladsen uden kamp."
             },
+            "director" : "Erik Balling",
             "images" : {
                 "base" : "images/olsenbanden_der_ud_af.jpg",
                 "small" : "images/olsenbanden_der_ud_af_small.jpg",
@@ -609,11 +655,12 @@
             ]
         },
         {
-            "title" : "Olsen-banden_det_store_kup",
+            "title" : "Olsen-bandens_store_kup",
             "genre" : ["Komedie", "Krimi"],
             "description" : {
-                "long" : "lorem ipsum"
+                "long" : "I Yvonnes stue lufter Egon sit nyeste mål: 4 millioner kroner i en pengetransport. De andre er skeptiske over for Egons store planer, men med hjælp fra en pølsevogn lykkes Olsen Bandens store kup faktisk. I hvert fald indtil den rivaliserende bande Kongen og Knægten melder sig på banen."
             },
+            "director" : "Erik Balling",
             "images" : {
                 "base" : "images/olsenbanden_det_store_kup.jpg",
                 "small" : "images/olsenbanden_det_store_kup_small.jpg",
@@ -642,8 +689,9 @@
             "title" : "Olsen-banden",
             "genre" : ["Komedie", "Krimi"],
             "description" : { 
-                "long" : "lorem ipsum"
+                "long" : "Egon Olsen er måske en småforbryder, men hans ambitioner er store: Han fantaserer om at begå et spektakulært kup, og så må hans to medhjælpere, den fiffige Benny og den forsigtige Kjeld, hjælpe til. Lige i hælene har Olsen Banden dog den ihærdige kriminalbetjent Mortensen. Dette er den første Olsen Banden-film, Olsen Banden 1, ud af i alt 14 film fra 1968 til 1998."
             },
+            "director" : "Erik Balling",
             "images" : {
                 "base" : "images/olsenbanden.jpg",
                 "small" : "images/olsen_banden_small.jpg",
