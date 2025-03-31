@@ -95,6 +95,10 @@ section {
     grid-template-columns: 1fr;
 }
 
+h1{
+    text-align: center;
+}
+
 .movie-list>h1 {
     font-size: 5em;
     color: orangered;
@@ -197,6 +201,7 @@ footer {
 
 /* #region Media Queries For Responsive Design */
 
+
 @media only screen and (max-width: 426px){
     .movie-list{
         grid-template-columns: 1fr;
@@ -218,14 +223,18 @@ footer {
         flex-direction: row;
         z-index: 10000;
     }
-    a[data="1"] {
+
+    .nav-container a:nth-child(1) {
         top:89px;
+        z-index: 100000;
     }
-    a[data="2"]{
+    .nav-container a:nth-child(2) {
         top: 117px;
+        z-index: 100000;
     }
-    a[data="3"]{
+    .nav-container a:nth-child(3) {
         top:145px;
+        z-index: 100000;
     }
     a.mobile-hidden {
         display:none;

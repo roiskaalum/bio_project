@@ -34,3 +34,21 @@ function createFilmBanner(film)
             </div>
     `
 }
+
+function checkViewport(){
+    if(window.innerWidth <= 768)
+    {
+        removeBanner();
+    }
+    else
+    {
+        displayFilmBanner("src/filmdata.json")
+    }
+}
+document.addEventListener("DOMContentLoaded", () => { checkViewport(); });
+window.addEventListener("resize", checkViewport)
+
+function removeBanner(){
+    const html = document.getElementById("bannerContainer");
+    html.innerHTML = "";
+}

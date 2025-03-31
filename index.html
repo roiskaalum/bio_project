@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>Klassiske Film</title>
         <meta charset="UTF-8">
@@ -13,16 +13,13 @@
         <script src="js/restoreBooking.js" defer></script>
 
     </head>
-
-    <div id="bannerContainer"></div>
-
     <body>
         <nav>
             <div class="nav-container" role="list" aria-label="Primary Navigation">
-                <a class="nav-item mobile-hidden active" data="1" href="index.html">Hjem</a>
-                <a class="nav-item mobile-hidden" data="2" href="movie.html">Film</a>
-                <a class="nav-item mobile-hidden" data="3" href="om_os.html">Om Os</a>
-                <button id="theme-toggle" class="dark-btn"><img class="nav-item" id="theme-icon" src="images/darkmode_black.png"></button>
+                <a class="nav-item mobile-hidden active"  href="index.html">Hjem</a>
+                <a class="nav-item mobile-hidden" href="movie.html">Film</a>
+                <a class="nav-item mobile-hidden" href="om_os.html">Om Os</a>
+                <button id="theme-toggle" class="dark-btn"><img class="nav-item" id="theme-icon" src="images/darkmode_black.png" alt="image for dark mode"></button>
                 <div class="nav-item burger-menu" role="list" aria-label="Primary Navigation Burger Menu">
                     <button class="burger-menu-button" id="burger-menu-button"><img src="images/nav-burger-menu.png" id="burgerImage" alt="Image For Hamburger Menu For Mobile Navigation"></button>
                 </div>
@@ -34,6 +31,7 @@
             <p>Her kan du finde og bestille biletter til film der bliver afspillet her i vores saler.</p>
         </section>
         <section>
+            <h1>Film</h1>
             <div id="movie-list" class="movie-list"></div>
         </section>
         <footer>
