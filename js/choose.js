@@ -1,118 +1,92 @@
-
 FindMovie();
 const container = document.querySelector('.cinemaContainer');
 const seats = document.querySelectorAll('.row .seat:not(.occupied)');
 const count = document.getElementById('sitTal');
 const total = document.getElementById('sittotal');
 const number = document.getElementById('sitvalg');
-remberChoice();
-//Skal give pris pr sæde
+const ticketPris = 70;
 
+rememberChoice();
 
-var ticketPris = 70;
-
-async function FindMovie(){
-    await fetchMoviesData(jsonURL)
-    .then(() => {
+async function FindMovie() {
+    await fetchMoviesData(jsonURL).then(() => {
         let params = new URLSearchParams(window.location.search);
         const title = params.get('title');
-        const imgElem = document.createElement("img");
-        const movieRef = moviesArr.find(movie => movie.title === title)
-        
-        console.log(title);
-        console.log(params);
-        console.log(imgElem);
-        console.log(movieRef);
+        const movieRef = moviesArr.find(movie => movie.title === title);
 
-        const imgURL = movieRef.images.base;
-        imgElem.src = imgURL;
+        if (!movieRef) return;
+
+        const imgElem = document.createElement("img");
+        imgElem.src = movieRef.images.base;
         imgElem.classList.add("single-movie-img");
-    
+
         const html = document.getElementById('movie-list');
         html.innerHTML = "";
         html.appendChild(imgElem);
-
-        console.log(html);
-        
     });
 }
 
+function updateSelectedCount() {
+    const selectedSeats = document.querySelectorAll('.row .seat.selected');
+    const selectedSeatsIndexes = [...selectedSeats].map(seat => [...seats].indexOf(seat));
 
-function updateSelectedCount()
-{
-    const selectedseats = document.querySelectorAll('.row .seat.selected');
+    const selectedSeatsCount = selectedSeats.length;
+    const checkpop = document.getElementById("jatak");
 
-    const selectedseatsCount = selectedseats.length;
-    var checkpop = document.getElementById("jatak");
+    total.innerText = checkpop.checked ? selectedSeatsCount * ticketPris + 20 : selectedSeatsCount * ticketPris;
+    count.innerText = selectedSeatsCount;
 
-    if (checkpop.checked == true)
-    {
-        total.innerText = selectedseatsCount * ticketPris + 20;
-    }
-    else{
-        total.innerText = selectedseatsCount * ticketPris;
-    }
-    
-    count.innerText = selectedseatsCount;
-    
-    const seatIndex =[...selectedseats].map(function (seat){
-        return [...seat].indexOf(seat);
+    // Save seats in localStorage
+    localStorage.setItem('selectedSeats', JSON.stringify(selectedSeatsIndexes));
+}
+
+function rememberChoice() {
+    const selectedSeats = JSON.parse(localStorage.getItem('selectedSeats')) || [];
+
+    seats.forEach((seat, index) => {
+        if (selectedSeats.includes(index)) {
+            seat.classList.add('selected');
+        }
     });
 
-    localStorage.setItem('selectedSeats', JSON.stringify(seatIndex));
+    updateSelectedCount();
 }
 
-function remberChoice()
-{
-    const selectedSeats = JSON.parse(localStorage.getItem('selectedSeats'))
-    if(selectedSeats !== null && selectedSeats.lenght > 0)
-    {
-        seats.forEach((seat, index) => {
-            if(selectedSeats.indexOf(index) > 1) {
-                seat.classList.add('selected');
-            }
-        })
-    }
-}
-/*function snack(){
-var checkpop = document.getElementById("jatak");
-if (checkpop.checked == true)
-{
-     20;
-}
-else{
-    20;
-}
-
-}
-*/
-//sæde valg
-
-container.addEventListener('click', e =>{
+container.addEventListener('click', e => {
     if (e.target.classList.contains('seat') && !e.target.classList.contains('occupied')) {
         e.target.classList.toggle('selected');
-
         updateSelectedCount();
     }
 });
 
 document.addEventListener("DOMContentLoaded", () => {
-    document.getElementsByClassName("button")[0].addEventListener("click", handleBetalBtnClick);
+    document.querySelector(".button").addEventListener("click", handleBetalBtnClick);
 });
-
 
 function handleBetalBtnClick(event) {
     const params = new URLSearchParams(window.location.search);
-    console.log("params:");
-    console.log(params);
-    console.log(params.get('title'));
-    console.log(params.get('hall'));
-    console.log(params.get('date'));
-    console.log(params.get('day'));
-    console.log(params.get('time'));
-    makePurchase(params);
+    const bookingData = {
+        title: params.get('title'),
+        hall: params.get('hall'),
+        date: params.get('date'),
+        day: params.get('day'),
+        time: params.get('time'),
+        selectedSeats: JSON.parse(localStorage.getItem('selectedSeats')) || []
+    };
+
+    // Save unfinished booking in localStorage
+    localStorage.setItem('unfinishedBooking', JSON.stringify(bookingData));
+
+    makePurchase(bookingData);
 }
 
-function makePurchase(params){
-    alert(`Du bestilte biletter til ${params.get('title')} kl ${params.get('time')} i hal ${params.get('hall')} ${params.get('day')} dato ${params.get('date')}`);
+function makePurchase(data) {
+    alert(`Du bestilte billetter til ${data.title} kl ${data.time} i hal ${data.hall}, ${data.day} dato ${data.date}`);
+    const resume = confirm(`Vil du fortsætte til betaling?`);
+    if(resume){
+        // Clear unfinished booking after successful purchase
+        localStorage.removeItem('unfinishedBooking');
+        localStorage.removeItem('selectedSeats');
+    }
+    
 }
