@@ -15,12 +15,23 @@ body, html {
     width: 90%;
     margin:1em auto;
 }
-.single-movie-description {
+.descriptionContainer {
     font-size: 1.5em;
-    padding: 0.3em;
-    padding-block: 1em;
-    width: 90%;
+    padding: 1em;
+    display:flex;
+    flex-direction: column;
 }
+.single-movie-description {
+    padding:0;
+    margin:0;
+}
+.marker {
+    padding:0;
+    margin:0;
+    justify-content: start;
+    font-weight: bold;
+}
+
 .order-ticket-btn {
     background-color: var(--clr-primary-400);
     width:60%;
@@ -31,20 +42,23 @@ body, html {
     border:0;
     color:var(--clr-neutral-900);
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.4em;
     margin-bottom: 2em;
 }
 .text-container {
     flex-direction: column;
     display:flex;
-    justify-content: center;
-    align-items: center;
-    width: 90%;
+    justify-content: start;
+    align-items: start;
+}
+
+.descriptionContainer[data-display="row"] {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .single-movie-container {
     display:grid;
-    width: 100%;
     grid-template-columns: 35% 1fr;
     gap: 0;
     margin:0;
@@ -64,6 +78,5 @@ body, html {
     .text-container {
         width:fit-content;
         font-size: 0.6em;
-        word-break:break-all;
     }
 }

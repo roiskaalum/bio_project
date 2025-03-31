@@ -81,30 +81,129 @@ async function displayByTitle(title, htmlElement) {
         titleElem.classList.add("single-movie-title");
         titleElem.innerText = movieTitle;
 
-        console.log(title);
-        console.log(movieRef.title);
-        console.log(movieTitle);
-
         const imgElem = document.createElement("img");
         const imgURL = movieRef.images.base;
         imgElem.src = imgURL;
         imgElem.classList.add("single-movie-img");
         imgElem.alt = "Image of ${movieTitle}";
 
+
+
+        // #region Age Element
+
+        const ageMarker = document.createElement("p");
+        ageMarker.innerText = "Aldersgrænse: ";
+        ageMarker.classList.add("single-movie-description");
+        ageMarker.classList.add("marker");
+        
+        const ageElem = document.createElement("p");
+        ageElem.innerText = movieRef.aldersgrænse;
+        ageElem.classList.add("single-movie-description");
+        
+        const ageContainer = document.createElement("div");
+        ageContainer.classList.add("descriptionContainer");
+        ageContainer.setAttribute("data-display", "row")
+        
+        ageContainer.appendChild(ageMarker);
+        ageContainer.appendChild(ageElem);
+        
+        // #endregion Age Element
+
+
+
+        // #region Description Element
+        
         const descriptionMarker = document.createElement("p");
         descriptionMarker.innerText = "Beskrivelse:";
         descriptionMarker.classList.add("single-movie-description");
         descriptionMarker.classList.add("marker");
-
+        
         const descriptionElem = document.createElement("p");
         descriptionElem.innerText = movieRef.description.long;
         descriptionElem.classList.add("single-movie-description");
-
+        
         const descriptionContainer = document.createElement("div");
         descriptionContainer.classList.add("descriptionContainer");
+        
+        descriptionContainer.appendChild(descriptionMarker);
+        descriptionContainer.appendChild(descriptionElem);
+        
+        // #endregion Description Element
 
-        descriptionContainer
 
+        // #region Genre Element
+
+        const genreMarker = document.createElement("p");
+        genreMarker.innerText = "Genre:";
+        genreMarker.classList.add("single-movie-description");
+        genreMarker.classList.add("marker");
+        
+        const genreElem = document.createElement("p");
+        let genreText = "";
+        movieRef.genre.forEach(item => { if(genreText == ""){ genreText = item; } else { genreText += ", " + item; } })
+        genreElem.innerText = genreText + ".";
+        genreElem.classList.add("single-movie-description");
+        
+        const genreContainer = document.createElement("div");
+        genreContainer.classList.add("descriptionContainer");
+        
+        genreContainer.appendChild(genreMarker);
+        genreContainer.appendChild(genreElem);
+
+        // #endregion Genre Element
+
+        // #region Director Element
+        const directorMarker = document.createElement("p");
+        directorMarker.innerText = "Direktør/er:";
+        directorMarker.classList.add("single-movie-description");
+        directorMarker.classList.add("marker");
+        
+        const directorElem = document.createElement("p");
+        let directorhtml = "";
+        if(!movieRef.director.length == 1)
+        {
+            movieRef.director.forEach(item => { if(directorhtml == ""){ directorhtml = item }else{ directorhtml += ", " + item } });
+        }
+        else
+        {
+            directorhtml = movieRef.director;
+        }
+        directorElem.innerText = directorhtml + ".";
+        directorElem.classList.add("single-movie-description");
+        
+        const directorContainer = document.createElement("div");
+        directorContainer.classList.add("descriptionContainer");
+        
+        directorContainer.appendChild(directorMarker);
+        directorContainer.appendChild(directorElem);
+            
+        // #endregion Director Element
+         
+        
+        // #region Genre Element
+
+        const actorMarker = document.createElement("p");
+        actorMarker.innerText = "Skuespillere:";
+        actorMarker.classList.add("single-movie-description");
+        actorMarker.classList.add("marker");
+        
+        const actorElem = document.createElement("p");
+        let actorText = "";
+        movieRef.actors.forEach(item => { if(actorText == ""){ actorText = item; } else { actorText += ", " + item; } })
+        actorElem.innerText = actorText + ".";
+        actorElem.classList.add("single-movie-description");
+        
+        const actorContainer = document.createElement("div");
+        actorContainer.classList.add("descriptionContainer");
+        
+        actorContainer.appendChild(actorMarker);
+        actorContainer.appendChild(actorElem);
+
+        // #endregion Genre Element
+
+
+        // #region Button Element
+        
         const button = document.createElement("button");
         button.innerText = "Bestil Billet!";
         button.classList.add("order-ticket-btn");
@@ -113,11 +212,21 @@ async function displayByTitle(title, htmlElement) {
             const movieTitleBtn = button.getAttribute("data-type");
             window.location.href = `chooseseat.html?title=${encodeURIComponent(movieTitleBtn)}`;
         };
+        
+        // #endregion Button Element
+
+
 
         const titleAndDescriptionDiv = document.createElement("div");
         titleAndDescriptionDiv.classList.add("text-container");
+
+
         titleAndDescriptionDiv.appendChild(titleElem);
-        titleAndDescriptionDiv.appendChild(descriptionElem);
+        titleAndDescriptionDiv.appendChild(ageContainer);
+        titleAndDescriptionDiv.appendChild(descriptionContainer);
+        titleAndDescriptionDiv.appendChild(genreContainer);
+        titleAndDescriptionDiv.appendChild(directorContainer);
+        titleAndDescriptionDiv.appendChild(actorContainer);
         titleAndDescriptionDiv.appendChild(button);
 
         htmlElement.appendChild(imgElem);
