@@ -5,6 +5,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const htmlElement = document.getElementById("movie-list");
 
     if (genre) {
+        if(htmlElement.classList.contains("single-movie-container"))
+            htmlElement.classList.remove("single-movie-container");
         // You can now use the genre to display the relevant content
         console.log(`Genre selected: ${genre}`);
         displayByGenre(genre, htmlElement);
@@ -98,9 +100,14 @@ async function displayByTitle(title, htmlElement) {
             window.location.href = `order.html?title = ${encodeURIComponent(movieTitleBtn)}`;
         };
 
+        const titleAndDescriptionDiv = document.createElement("div");
+        titleAndDescriptionDiv.classList.add("text-container");
+        titleAndDescriptionDiv.appendChild(titleElem);
+        titleAndDescriptionDiv.appendChild(descriptionElem);
+        titleAndDescriptionDiv.appendChild(button);
+
         htmlElement.appendChild(imgElem);
-        htmlElement.appendChild(titleElem);
-        htmlElement.appendChild(descriptionElem);
-        htmlElement.appendChild(button);
+        htmlElement.appendChild(titleAndDescriptionDiv);
+        htmlElement.classList.add("single-movie-container");
     });
 }
