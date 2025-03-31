@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
+  console.log("DOMContentLoaded called for shared.js");
     // #region Darkmode and Hamburger Menu
     console.log("loaded JS");
     const themeToggle = document.querySelector("#theme-toggle");

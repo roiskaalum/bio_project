@@ -3,6 +3,7 @@ let jsonURL = "src/filmdata.json";
 let moviesListElements = null;
 
 async function fetchMoviesData(url) {
+    console.log("fetchMoviesData called");
     try {
         const response = await fetch(url);
         if (!response.ok) {
@@ -25,6 +26,7 @@ async function fetchMoviesData(url) {
 }
 
 function generateMovieList(targetElement) {
+    console.log("generateMovieList called");
     // Clear existing content
     
     targetElement.innerHTML = "";
@@ -36,6 +38,7 @@ function generateMovieList(targetElement) {
 }
 
 function createMovieElement(item) {
+    console.log("createMovieElement called");
     const div = document.createElement("div");
     div.classList.add("movie-div");
 
@@ -66,6 +69,7 @@ function createMovieElement(item) {
 }
 
 function createGenreButtons(genres, movieTitle) {
+    console.log("createGenreButtons called");
     const genreList = document.createElement("div");
     genreList.classList.add("genre-list");
 
@@ -84,6 +88,7 @@ function createGenreButtons(genres, movieTitle) {
 }
 
 function openGenrePage(genre) {
+    console.log("openGenrePage called");
     // Encode the genre for URL safety
     const encodedGenre = encodeURIComponent(genre);
     window.location.href = `movie.html?genre=${encodedGenre}`;
@@ -91,7 +96,7 @@ function openGenrePage(genre) {
 
 // Example usage of the abstraction
 async function loadMovies(htmlElement, id_class_html = "") {
-    console.log(htmlElement);
+    console.log("loadMovies called");
     let movieListElement;
     if(id_class_html.toUpperCase() == "ID") {
         movieListElement = document.getElementById(htmlElement);
@@ -139,6 +144,8 @@ async function loadMovies(htmlElement, id_class_html = "") {
 
 // Call the loadMovies function when the page loads or when needed
 document.addEventListener("DOMContentLoaded", () => {
+    console.log("DOMContentLoaded called for main.js");
+
     const currentPage = window.location.pathname;
 
     if(currentPage.includes("index.html"))
