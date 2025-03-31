@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Klassiske Film | Filme</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="src/style.css">
+        <link rel="stylesheet" type="text/css" href="src/cinamastyle.css">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <script src="src/shared.js" defer></script>
+        <script src="src/main.js" defer></script>
+        <script src="src/choose.js" defer></script>
+    </head>
+
+    <body>
+        <nav>
+            <div class="nav-container" role="list" aria-label="Primary Navigation">
+                <a class="nav-item mobile-hidden active" data="1" href="index.html">Hjem</a>
+                <a class="nav-item mobile-hidden" data="2" href="movie.html">Film</a>
+                <a class="nav-item mobile-hidden" data="3" href="om_os.html">Om Os</a>
+                <button id="theme-toggle" class="dark-btn"><img class="nav-item" id="theme-icon" src="images/darkmode_black.png"></button>
+                <div class="nav-item burger-menu" role="list" aria-label="Primary Navigation Burger Menu">
+                    <button class="burger-menu-button" id="burger-menu-button"><img src="images/nav-burger-menu.png" id="burgerImage" alt="Image For Hamburger Menu For Mobile Navigation"></button>
+                </div>
+            </div>
+        </nav>
+        <section class="search-section">
+            <div class="search-container">
+                <input type="text" id="searchBar" placeholder="Søg efter film..." aria-label="Søg efter film">
+                
+                <div class="filter-section">
+                    <h3>Filtrer efter genre</h3>
+                    <div id="genreFilters" class="genre-filters">
+                        <!-- Genre filters will be added here dynamically -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <sektion>
+            <div class="cinemaContainer">
+                <div class="screen"></div>
+            
+            <div class="row">
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+            </div>
+            <div class="row">
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+            </div>
+            <div class="row">
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+            </div>
+            <div class="row">
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+            </div>
+            </div>
+<p class="sædepris">Du har valgt <span id="sitTal">0</span> sæder. Total Pris <span id="sittotal"> kr</span></p>
+        </sektion>
+
+
+
+
+        <footer>
+            <div class="social-list">
+                <a href="https://www.facebook.com"><img src="images/facebook.png" alt="Facebook"></a>
+                <a href="https://www.instagram.com"><img src="images/instagram.png" alt="Instagram"></a>
+                <a href="https://www.twitter.com"><img src="images/twitter.png" alt="Twitter"></a>
+            </div>
+        </footer>
+    </body>
+</html>

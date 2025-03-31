@@ -1,0 +1,43 @@
+body{
+    background-color: f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.cinemaContainer{
+    margin: 20px auto;
+    width: 300px;
+}
+
+.screen{
+    background-color: rgb(228, 243, 255);
+    height: 70px;
+    width: 100%;
+    margin-bottom: 15%;
+    box-shadow: 0 3px 10px rgb(0, 0, 0, 1);
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.seat{
+    background-color: cornsilk;
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.seat.selected{
+    background-color: greenyellow;
+}
+
+.seat.occupied{
+    background-color: crimson;
+    cursor: not-allowed;
+}
+

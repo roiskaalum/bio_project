@@ -1,0 +1,30 @@
+#bannerContainer {
+    width: 120rem;
+    overflow: hidden;
+    margin: 0.2rem auto;
+    background: rgb(78, 15, 3);
+}
+
+header h1{
+    text-align: center;
+}
+
+.billederBanner{
+    height: 23rem;
+    width: 355rem;
+    margin-bottom: 5rem;
+}
+
+.first{
+
+            animation: bannermove 30s linear infinite;
+}
+
+@keyframes bannermove {
+    0% {
+       margin-left: 0rem;
+    }
+    100% {
+       margin-left: -150rem;
+    }
+}
