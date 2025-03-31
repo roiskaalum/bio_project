@@ -1,0 +1,21 @@
+{
+    "drikke": [
+        {
+            "name": "Danskvand",
+            "ingredients": "Danskvand med måske vand",
+            "bigImage": "images/sparkles_big.jpg",
+            "smallImage": "images/sparkles_big.jpg",
+            "title": "Driks med lidt extra",
+            "caption": "Driks med lidt extra"
+
+        },
+        {
+            "name": "Sodavand",
+            "ingredients": "Sodavand måske med kemikalier",
+            "bigImage": "images/soft_drinks_big.jpg",
+            "smallImage": "images/soft_drinks_big.jpg",
+            "title": "Sodavand",
+            "caption": "Sodavand uden smag"
+        }
+    ]
+}

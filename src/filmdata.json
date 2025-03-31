@@ -4,8 +4,8 @@
             "title" : "Min_søsters_børn_vælterbyen",
             "genre" : ["lorem", "ipsum", "ipsum", "ipsum", "ipsum", "ipsum", "ipsum", "ipsum"],
             "description" : {
-                "long" : "lorem ipsum",
-                "short" : "lorem ipsum"
+                "long" : "Mine søstres børn",
+                "short" : "Mine søs børn"
             },
             "images" : {
                 "base" : "images/min_søsters_børn_vælterbyen.jpg",
