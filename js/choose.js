@@ -5,6 +5,7 @@ const seats = document.querySelectorAll('.row .seat:not(.occupied)');
 const count = document.getElementById('sitTal');
 const total = document.getElementById('sittotal');
 const number = document.getElementById('sitvalg');
+remberChoice();
 //Skal give pris pr sæde
 
 
@@ -42,8 +43,8 @@ function updateSelectedCount()
     const selectedseats = document.querySelectorAll('.row .seat.selected');
 
     const selectedseatsCount = selectedseats.length;
-    
     var checkpop = document.getElementById("jatak");
+
     if (checkpop.checked == true)
     {
         total.innerText = selectedseatsCount * ticketPris + 20;
@@ -54,9 +55,25 @@ function updateSelectedCount()
     
     count.innerText = selectedseatsCount;
     
+    const seatIndex =[...selectedseats].map(function (seat){
+        return [...seat].indexOf(seat);
+    });
 
+    localStorage.setItem('selectedSeats', JSON.stringify(seatIndex));
 }
 
+function remberChoice()
+{
+    const selectedSeats = JSON.parse(localStorage.getItem('selectedSeats'))
+    if(selectedSeats !== null && selectedSeats.lenght > 0)
+    {
+        seats.forEach((seat, index) => {
+            if(selectedSeats.indexOf(index) > 1) {
+                seat.classList.add('selected');
+            }
+        })
+    }
+}
 /*function snack(){
 var checkpop = document.getElementById("jatak");
 if (checkpop.checked == true)
