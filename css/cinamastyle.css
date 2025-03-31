@@ -1,4 +1,15 @@
-
+:root{
+    --kvit-farve:#f0d8a9 ;
+    --kvit-bgfarve:#FFF0DC;
+    --cinema-farve:#d88b70 ;
+    --button-farve:coral;
+}
+.dark{
+    --kvit-farve:#36211f ;
+    --kvit-bgfarve:#1b1612;
+    --cinema-farve:#694233 ;
+    --button-farve:rgb(117, 48, 23);
+}
 .cinemaContainer{
     margin: 2rem auto;
     width: 20rem;
@@ -40,14 +51,14 @@ h2{
 .sect-cinema{
     margin: 4rem;
 
-    background-color: rgb(192, 143, 114);
+    background-color:var(--cinema-farve);
     border-radius: 2rem;
     border-width: 0.4rem;
     border-style: dashed;
 
 }
 .button{
-    background-color: coral;
+    background-color: var(--button-farve);
     border: none;
     text-align: center;
     padding: 1rem 2rem;
@@ -56,14 +67,14 @@ h2{
 }
 
 .sect-kvit{
-    background-color: rgb(240, 216, 169);
+    background-color:var(--kvit-farve);
     border-radius: 2rem;
     margin: 1rem;
     margin-left: 2rem;
     margin-right: 2rem;
     padding: 7rem;
     border-width: 1.5rem;
-    border-color: #FFF0DC;
+    border-color: var(--kvit-bgfarve);
     border-top-style:dotted;
     border-bottom-style:dotted ;
 }
