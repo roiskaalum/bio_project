@@ -89,10 +89,22 @@ async function displayByTitle(title, htmlElement) {
         imgElem.classList.add("single-movie-img");
         imgElem.alt = "Image of ${movieTitle}";
 
+        const descriptionMarker = document.createElement("p");
+        descriptionMarker.innerText = "Beskrivelse:";
+        descriptionMarker.classList.add("single-movie-description");
+        descriptionMarker.classList.add("marker");
+
         const descriptionElem = document.createElement("p");
         descriptionElem.innerText = movieRef.description.long;
         descriptionElem.classList.add("single-movie-description");
+
+        const descriptionContainer = document.createElement("div");
+        descriptionContainer.classList.add("descriptionContainer");
+
+        descriptionContainer
+
         const button = document.createElement("button");
+        button.innerText = "Bestil Billet!";
         button.classList.add("order-ticket-btn");
         button.setAttribute("data-type", movieRef.title);
         button.onclick = function() {
