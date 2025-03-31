@@ -13,7 +13,7 @@ body, html {
     align-self: start;
     justify-self: start;
     width: 90%;
-    margin:0.3em;
+    margin:1em auto;
 }
 .single-movie-description {
     font-size: 1.5em;
@@ -32,6 +32,7 @@ body, html {
     color:var(--clr-neutral-900);
     font-weight: bold;
     font-size: 1.2em;
+    margin-bottom: 2em;
 }
 .text-container {
     flex-direction: column;

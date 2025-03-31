@@ -29,6 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 async function displayByGenre(genre, htmlElement) {
+    toggleFilter(1);
     try
     {
         // 1. First await the loadMovies completion
@@ -70,6 +71,7 @@ async function displayByGenre(genre, htmlElement) {
     }
 }
 async function displayByTitle(title, htmlElement) {
+    toggleFilter();
     console.log(jsonURL);
     await fetchMoviesData(jsonURL)
     .then(() => {
@@ -109,7 +111,7 @@ async function displayByTitle(title, htmlElement) {
         button.setAttribute("data-type", movieRef.title);
         button.onclick = function() {
             const movieTitleBtn = button.getAttribute("data-type");
-            window.location.href = `chooseseat.html?title = ${encodeURIComponent(movieTitleBtn)}`;
+            window.location.href = `chooseseat.html?title=${encodeURIComponent(movieTitleBtn)}`;
         };
 
         const titleAndDescriptionDiv = document.createElement("div");
@@ -122,4 +124,17 @@ async function displayByTitle(title, htmlElement) {
         htmlElement.appendChild(titleAndDescriptionDiv);
         htmlElement.classList.add("single-movie-container");
     });
+}
+
+function toggleFilter(number = 0) {
+    let element = document.getElementsByClassName("search-section");
+    if(number == 0)
+        element[0].classList.toggle("hidden");
+    else
+    {
+        if(element[0].classList.contains("hidden"))
+            element[0].classList.toggle("hidden");
+
+    }
+        
 }
