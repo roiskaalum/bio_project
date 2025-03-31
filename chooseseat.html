@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+
         <title>Klassiske Film | Filme</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,59 +25,72 @@
                 </div>
             </div>
         </nav>
-        <section class="search-section">
-            <div class="search-container">
-                <input type="text" id="searchBar" placeholder="Søg efter film..." aria-label="Søg efter film">
-                
-                <div class="filter-section">
-                    <h3>Filtrer efter genre</h3>
-                    <div id="genreFilters" class="genre-filters">
-                        <!-- Genre filters will be added here dynamically -->
+       
+
+        <section>
+        <div class="grid">
+            <section class="sect-film">
+            <div id="movie-list" class="movie-list">
+            </div>
+            </section>
+           
+            <section class="sect-cinema">
+            <div class="cinemaContainer">
+                    <h3>Vælg Sæder</h3>
+                    <div class="screen">
+                     
                     </div>
+                
+                <div class="row a">
+                    <div class="seat one"></div>
+                    <div class="seat two"></div>
+                    <div class="seat three"></div>
+                    <div class="seat four"></div>
+                    <div class="seat five"></div>
+                    <div class="seat six"></div>
+                </div>
+                <div class="row b">
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                </div>
+                <div class="row c">
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                </div>
+                <div class="row d">
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
                 </div>
             </div>
-        </section>
+            </section>
 
-        <sektion>
-            <div class="cinemaContainer">
-                <div class="screen"></div>
+            <section class="sect-kvit">
             
-            <div class="row a">
-                <div class="seat one"></div>
-                <div class="seat two"></div>
-                <div class="seat three"></div>
-                <div class="seat four"></div>
-                <div class="seat five"></div>
-                <div class="seat six"></div>
-            </div>
-            <div class="row b">
-                <div class="seat"></div>
-                <div class="seat"></div>
-                <div class="seat"></div>
-                <div class="seat"></div>
-                <div class="seat"></div>
-                <div class="seat"></div>
-            </div>
-            <div class="row c">
-                <div class="seat"></div>
-                <div class="seat"></div>
-                <div class="seat"></div>
-                <div class="seat"></div>
-                <div class="seat"></div>
-                <div class="seat"></div>
-            </div>
-            <div class="row d">
-                <div class="seat"></div>
-                <div class="seat"></div>
-                <div class="seat"></div>
-                <div class="seat"></div>
-                <div class="seat"></div>
-                <div class="seat"></div>
-            </div>
-            </div>
-<p class="sædepris">Du har valgt <span id="sitTal">0</span> sæder. Total Pris <span id="sittotal"> kr</span></p>
-<p class="sitvalg"></p>
-        </sektion>
+                <p>Du har valgt <span id="sitTal">0</span> sæder.</p>
+                
+
+                <p>Popcorn..............20Kr<input type="checkbox" name="Popcorn" value="popcorn" id="jatak" onclick="updateSelectedCount()"></p>
+                
+
+                <p> Total Pris <span id="sittotal"></span> Kr.</p>
+            
+                <button type="button" class="button">Betal</button>
+
+            </section>
+        </div>
+        </section>
 
 
 

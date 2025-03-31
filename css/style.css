@@ -1,17 +1,17 @@
 :root {
-    --clr-primary-300: #a27b5c;
-    --clr-primary-400: #a27b5c;
-    --clr-primary-500: #a27b5c;
+    --clr-primary-300: #a85b3e;
+    --clr-primary-400: #a85b3e;
+    --clr-primary-500: #a85b3e;
 
-    --clr-neutral-100: #dcd7c9;
-    --clr-neutral-200: #f8f9fa;
-    --clr-neutral-800: #343a40;
-    --clr-neutral-900: #181b1e;
+    --clr-neutral-100: #FFF0DC;
+    --clr-neutral-200: #17191b;
+    --clr-neutral-800: #3b062c;
+    --clr-neutral-900: #130808;
 
-    --clr-accent-200: #7d68d7;
-    --clr-accent-300: #9588c9;
-    --clr-accent-400: #413852;
-    --clr-accent-500: #25202f;
+    --clr-accent-200: #A5B68D;
+    --clr-accent-300: #F0BB78;
+    --clr-accent-400: #485748;
+    --clr-accent-500: #A5B68D;
 }
 
 /* #region Basic Resets */
@@ -282,17 +282,17 @@ footer {
 /* #region Dark Styles */
 
 .dark {
-    --clr-primary-300: #cf8f41;
-    --clr-primary-400: #af7012;
-    --clr-primary-500: #ffa742;
+    --clr-primary-300: #5b3327;
+    --clr-primary-400: #5b3327;
+    --clr-primary-500: #5b3327;
 
-    --clr-neutral-100: #000000;
-    --clr-neutral-200: #f8f9fa;
+    --clr-neutral-100: #1b1612;
+    --clr-neutral-200: #F0BB78;
     --clr-neutral-800: #343a40;
-    --clr-neutral-900: #ffffff;
+    --clr-neutral-900: #dbc0a7;
 
-    --clr-accent-200: #938ab9;
-    --clr-accent-300: #9588c9;
+    --clr-accent-200: #F0BB78;
+    --clr-accent-300: #5f4328;
     --clr-accent-400: #413852;
     --clr-accent-500: #25202f;
 }
