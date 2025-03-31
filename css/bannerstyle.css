@@ -4,6 +4,10 @@
     margin: 0.2rem auto;
     
 }
+.billAni{
+    width: 20rem;
+    height: auto;
+}
 
 header h1{
     text-align: center;
@@ -16,8 +20,7 @@ header h1{
 }
 
 .first{
-
-            animation: bannermove 30s linear infinite;
+            animation: bannermove 60s linear infinite;
 }
 
 @keyframes bannermove {
@@ -25,6 +28,6 @@ header h1{
        margin-left: 0rem;
     }
     100% {
-       margin-left: -150rem;
+       margin-left: -175rem;
     }
 }
